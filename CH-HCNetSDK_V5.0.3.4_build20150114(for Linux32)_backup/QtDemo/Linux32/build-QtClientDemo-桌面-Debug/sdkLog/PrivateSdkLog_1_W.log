@@ -1,0 +1,107 @@
+[2015-05-17 15:18:36.560][INF] The COM:Preview ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:36.561][INF] The COM:Core ver is 5.0.3.4, 2015_01_14. Async:1.
+[2015-05-17 15:18:36.561][INF] This hcnetsdk ver is 5.0.3.4 Ver 2015_01_14.
+[2015-05-17 15:18:36.680][INF] The COM:HCAlarm ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:36.683][INF] Listen Proc get Addr[0x8639bc4]
+[2015-05-17 15:18:46.382][INF] login dev 192.0.0.64.
+[2015-05-17 15:18:46.387][INF] Private connect 192.0.0.64:8000 sock=30 this=0xafb4700c cmd=0x10000 port=40615
+[2015-05-17 15:18:46.387][INF] LogonDev1 in
+[2015-05-17 15:18:46.395][INF] LogonDev1 in twice
+[2015-05-17 15:18:46.448][INF] The COM:VoiceTalk ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:46.467][INF] The COM:HCGeneralCfgMgr ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:46.485][INF] The COM:HCPlayback ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:46.503][INF] The COM:HCIndustry ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:46.520][INF] The COM:HCDisplay ver is 5.0.3.4, 2015_01_14.
+[2015-05-17 15:18:46.521][INF] Private connect 192.0.0.64:8000 sock=30 this=0xafb4700c cmd=0x20000 port=40616
+[2015-05-17 15:18:46.531][INF] Private connect 192.0.0.64:8000 sock=30 this=0xafb4700c cmd=0x110170 port=40617
+[2015-05-17 15:18:46.538][ERR] dwCommToDVR[0x110170] SimpleCommandToDvr
+[2015-05-17 15:18:46.539][INF] Private connect 192.0.0.64:8000 sock=30 this=0xafb4700c cmd=0x110120 port=40618
+[2015-05-17 15:18:49.540][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-17 15:18:49.549][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7f6b000]
+[2015-05-17 15:18:49.549][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-17 15:18:49.549][INF] Private connect 192.0.0.64:8000 sock=30 this=0xafb4700c cmd=0x20c04 port=40619
+[2015-05-17 15:18:49.684][INF] GlobalCtrl load [.//HCNetSDKCom//libStreamTransClient.so] with sdk path success and get handle[0x88ab0b0]
+[2015-05-17 15:18:49.694][DBG] StreamTranClient---Create asyncio queue succ!
+[2015-05-17 15:18:49.694][INF] StreamTranClient---version:this RTSP version is 1.1.2.16 2014_12_01..
+[2015-05-17 15:18:49.694][INF] StreamTranClient---version:this RTSP version is asyn..
+[2015-05-17 15:18:49.694][INF] CTransUnitMgr::LoadTransUnitLib Load Succ, m_iInitCount = 0
+[2015-05-17 15:18:49.694][INF] StreamTranClient---TransClientHandle=0 Ptr=0x88acdf8£¬TotolNum=1
+[2015-05-17 15:18:49.694][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[889b1a4]
+[2015-05-17 15:18:49.698][INF] Private connect 192.0.0.64:8000 sock=36 this=0xafb4700c cmd=0x20c04 port=40620
+[2015-05-17 15:18:49.706][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-17 15:18:49.706][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[889b1a4] start in
+[2015-05-17 15:18:49.708][DBG] StreamTranClient---[0]rtsp decribe in
+[2015-05-17 15:18:49.713][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [proc_describe] write header, this[889b1a4]
+[2015-05-17 15:18:49.713][INF] StreamTranClient---rtsp portthis[88ab4d8]get tcp port=20000, size=511
+[2015-05-17 15:18:49.718][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-17 15:18:49.718][DBG] StreamTranClient---[0]rtsp play in
+[2015-05-17 15:18:49.724][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[889b1a4] start out SUC
+[2015-05-17 15:18:49.745][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[8899364] success
+[2015-05-17 15:18:49.762][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0x88c2070]
+[2015-05-17 15:18:49.762][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-17 15:18:49.766][DBG] ID-IP-CHAN[0-192.0.0.64-1] RTP Format
+[2015-05-17 15:18:49.766][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-17 15:18:49.767][INF] Private connect 192.0.0.64:8000 sock=39 this=0xafb4700c cmd=0x30007 port=40622
+[2015-05-17 15:18:49.777][INF] Private connect 192.0.0.64:8000 sock=39 this=0xafb4700c cmd=0x30008 port=40623
+[2015-05-17 15:18:50.084][INF] Private connect 192.0.0.64:8000 sock=39 this=0xafb4700c cmd=0x30008 port=40624
+[2015-05-17 15:18:50.378][INF] Private connect 192.0.0.64:8000 sock=39 this=0xafb4700c cmd=0x30008 port=40625
+[2015-05-17 15:18:50.667][INF] Private connect 192.0.0.64:8000 sock=39 this=0xafb4700c cmd=0x30008 port=40626
+[2015-05-17 15:18:57.574][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-17 15:18:57.599][DBG] StreamTranClient---[0]rtsp Stop in!
+[2015-05-17 15:18:57.602][ERR] StreamTranClient---[88ad4c0]It recvs data [socket:37] error, system error:104!
+[2015-05-17 15:18:57.603][INF] StreamTranClient---rtsp portthis[88ab4d8]resuse tcp port=20000, size=511
+[2015-05-17 15:18:57.622][DBG] StreamTranClient---[0]rtsp Stop out!
+[2015-05-17 15:18:57.622][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::StopLinkInConnection] this[889b1a4] stop session return 0
+[2015-05-17 15:18:57.622][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-17 15:18:57.637][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-17 15:19:04.228][INF] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-17 15:19:04.228][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7f6b000]
+[2015-05-17 15:19:04.228][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-17 15:19:04.229][INF] Private connect 192.0.0.64:8000 sock=36 this=0xafb4700c cmd=0x20c04 port=40627
+[2015-05-17 15:19:04.237][INF] StreamTranClient---TransClientHandle=1 Ptr=0x88acdf8£¬TotolNum=1
+[2015-05-17 15:19:04.237][DBG] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[889b1a4]
+[2015-05-17 15:19:04.238][INF] Private connect 192.0.0.64:8000 sock=36 this=0xafb4700c cmd=0x20c04 port=40628
+[2015-05-17 15:19:04.247][INF] ID-IP-CHAN[1-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-17 15:19:04.247][INF] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::SendHeaderWithRecv] this[889b1a4] start in
+[2015-05-17 15:19:04.250][DBG] StreamTranClient---[1]rtsp decribe in
+[2015-05-17 15:19:04.254][DBG] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [proc_describe] write header, this[889b1a4]
+[2015-05-17 15:19:04.254][INF] StreamTranClient---rtsp portthis[88ab4d8]get tcp port=20002, size=511
+[2015-05-17 15:19:04.260][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-17 15:19:04.260][DBG] StreamTranClient---[1]rtsp play in
+[2015-05-17 15:19:04.264][DBG] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::SendHeaderWithRecv] this[889b1a4] start out SUC
+[2015-05-17 15:19:04.268][INF] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[8899364] success
+[2015-05-17 15:19:04.287][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0x88e61a8]
+[2015-05-17 15:19:04.287][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-17 15:19:04.288][DBG] ID-IP-CHAN[1-192.0.0.64-1] RTP Format
+[2015-05-17 15:19:04.288][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-17 15:19:27.917][INF] Private connect 192.0.0.64:8000 sock=39 this=0xafb4700c cmd=0x30007 port=40630
+[2015-05-17 15:19:31.206][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CGetStreamBase::ProcTcpData] RTP Error, head[02xe6c2], this=0x888a294
+[2015-05-17 15:19:31.256][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CGetStreamBase::ProcTcpData] RTP Error, head[02x69f8], this=0x888a294
+[2015-05-17 15:19:33.070][INF] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-17 15:19:33.089][DBG] StreamTranClient---[1]rtsp Stop in!
+[2015-05-17 15:19:33.101][ERR] StreamTranClient---[88f77b0]It recvs data [socket:37] error, system error:104!
+[2015-05-17 15:19:33.102][INF] StreamTranClient---rtsp portthis[88ab4d8]resuse tcp port=20002, size=511
+[2015-05-17 15:19:33.134][DBG] StreamTranClient---[1]rtsp Stop out!
+[2015-05-17 15:19:33.134][INF] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::StopLinkInConnection] this[889b1a4] stop session return 0
+[2015-05-17 15:19:33.134][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-17 15:19:33.153][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-17 15:19:36.291][INF] ID-IP-CHAN[2-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-17 15:19:36.291][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7f6b000]
+[2015-05-17 15:19:36.291][DBG] ID-IP-CHAN[2-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-17 15:19:36.292][INF] Private connect 192.0.0.64:8000 sock=36 this=0xafb4700c cmd=0x20c04 port=40631
+[2015-05-17 15:19:36.299][INF] StreamTranClient---TransClientHandle=2 Ptr=0x88acdf8£¬TotolNum=1
+[2015-05-17 15:19:36.299][DBG] ID-IP-CHAN[2-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[889b1a4]
+[2015-05-17 15:19:36.300][INF] Private connect 192.0.0.64:8000 sock=36 this=0xafb4700c cmd=0x20c04 port=40632
+[2015-05-17 15:19:36.309][INF] ID-IP-CHAN[2-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-17 15:19:36.309][INF] ID-IP-CHAN[2-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::SendHeaderWithRecv] this[889b1a4] start in
+[2015-05-17 15:19:36.313][DBG] StreamTranClient---[2]rtsp decribe in
+[2015-05-17 15:19:36.316][DBG] ID-IP-CHAN[2-192.0.0.64-1] rtsp_session[2]  [proc_describe] write header, this[889b1a4]
+[2015-05-17 15:19:36.316][INF] StreamTranClient---rtsp portthis[88ab4d8]get tcp port=20004, size=511
+[2015-05-17 15:19:36.321][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-17 15:19:36.321][DBG] StreamTranClient---[2]rtsp play in
+[2015-05-17 15:19:36.326][DBG] ID-IP-CHAN[2-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::SendHeaderWithRecv] this[889b1a4] start out SUC
+[2015-05-17 15:19:36.331][INF] ID-IP-CHAN[2-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[8899364] success
+[2015-05-17 15:19:36.358][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0x88e61a8]
+[2015-05-17 15:19:36.358][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-17 15:19:36.359][DBG] ID-IP-CHAN[2-192.0.0.64-1] RTP Format
+[2015-05-17 15:19:36.359][DBG] ID-IP-CHAN[2-192.0.0.64-1] [CPreviewSession::Start] SUCC

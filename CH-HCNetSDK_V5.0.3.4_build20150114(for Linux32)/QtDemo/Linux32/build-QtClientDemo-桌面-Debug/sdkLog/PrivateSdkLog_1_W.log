@@ -1,0 +1,627 @@
+[2015-05-19 20:57:20.849][INF] The COM:Preview ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 20:57:20.850][INF] The COM:Core ver is 5.0.3.4, 2015_01_14. Async:1.
+[2015-05-19 20:57:20.850][INF] This hcnetsdk ver is 5.0.3.4 Ver 2015_01_14.
+[2015-05-19 20:57:20.957][INF] The COM:HCAlarm ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 20:57:20.958][INF] Listen Proc get Addr[0x8ac451c]
+[2015-05-19 20:57:23.362][INF] The COM:VoiceTalk ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 20:57:23.363][INF] The COM:HCGeneralCfgMgr ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 20:57:23.363][INF] The COM:HCPlayback ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 20:57:23.364][INF] The COM:HCIndustry ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 20:57:23.364][INF] The COM:HCDisplay ver is 5.0.3.4, 2015_01_14.
+[2015-05-19 21:03:54.670][INF] login dev 192.0.0.64.
+[2015-05-19 21:03:54.676][INF] Private connect 192.0.0.64:8000 sock=27 this=0xab1e000c cmd=0x10000 port=39834
+[2015-05-19 21:03:54.676][INF] LogonDev1 in
+[2015-05-19 21:03:54.685][INF] LogonDev1 in twice
+[2015-05-19 21:03:54.711][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-19 21:03:54.711][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7748000]
+[2015-05-19 21:03:54.712][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-19 21:03:54.712][INF] Private connect 192.0.0.64:8000 sock=27 this=0xab1e000c cmd=0x20c04 port=39835
+[2015-05-19 21:03:54.842][INF] GlobalCtrl load [.//HCNetSDKCom//libStreamTransClient.so] with sdk path success and get handle[0x8b0b298]
+[2015-05-19 21:03:54.842][DBG] StreamTranClient---Create asyncio queue succ!
+[2015-05-19 21:03:54.842][INF] StreamTranClient---version:this RTSP version is 1.1.2.16 2014_12_01..
+[2015-05-19 21:03:54.842][INF] StreamTranClient---version:this RTSP version is asyn..
+[2015-05-19 21:03:54.842][INF] CTransUnitMgr::LoadTransUnitLib Load Succ, m_iInitCount = 0
+[2015-05-19 21:03:54.842][INF] StreamTranClient---TransClientHandle=0 Ptr=0x8f5d2e8£¬TotolNum=1
+[2015-05-19 21:03:54.842][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:03:54.843][INF] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x20c04 port=39836
+[2015-05-19 21:03:54.849][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:03:54.849][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:03:54.850][DBG] StreamTranClient---[0]rtsp decribe in
+[2015-05-19 21:03:54.862][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [proc_describe] write header, this[8caf54c]
+[2015-05-19 21:03:54.862][INF] StreamTranClient---rtsp portthis[8d5ad98]get tcp port=20000, size=511
+[2015-05-19 21:03:54.868][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-19 21:03:54.868][DBG] StreamTranClient---[0]rtsp play in
+[2015-05-19 21:03:54.872][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out SUC
+[2015-05-19 21:03:54.876][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[8fed404] success
+[2015-05-19 21:03:54.877][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0x8ffc4e8]
+[2015-05-19 21:03:54.877][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-19 21:03:54.877][DBG] ID-IP-CHAN[0-192.0.0.64-1] RTP Format
+[2015-05-19 21:03:54.877][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-19 21:03:54.878][INF] Private connect 192.0.0.64:8000 sock=36 this=0xab1e000c cmd=0x30007 port=39838
+[2015-05-19 21:03:54.886][INF] Private connect 192.0.0.64:8000 sock=36 this=0xab1e000c cmd=0x30008 port=39839
+[2015-05-19 21:03:55.189][INF] Private connect 192.0.0.64:8000 sock=36 this=0xab1e000c cmd=0x30008 port=39840
+[2015-05-19 21:03:55.489][INF] Private connect 192.0.0.64:8000 sock=36 this=0xab1e000c cmd=0x30008 port=39841
+[2015-05-19 21:03:55.758][INF] Private connect 192.0.0.64:8000 sock=36 this=0xab1e000c cmd=0x30008 port=39842
+[2015-05-19 21:04:06.600][ERR] [0]PlayM4_SetDisplayBuf[50] failed[2]
+[2015-05-19 21:04:17.311][ERR] [0]PlayM4_SetDisplayBuf[20] failed[2]
+[2015-05-19 21:04:21.015][ERR] [0]PlayM4_SetDisplayBuf[10] failed[2]
+[2015-05-19 21:04:29.679][ERR] [0]PlayM4_SetDisplayBuf[50] failed[2]
+[2015-05-19 21:04:52.503][ERR] [0]PlayM4_SetDisplayBuf[10] failed[2]
+[2015-05-19 21:05:54.721][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39843
+[2015-05-19 21:07:54.731][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39844
+[2015-05-19 21:09:54.742][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39845
+[2015-05-19 21:11:54.752][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39846
+[2015-05-19 21:13:54.762][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39847
+[2015-05-19 21:15:54.773][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39848
+[2015-05-19 21:17:54.784][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39849
+[2015-05-19 21:19:54.795][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39854
+[2015-05-19 21:21:54.811][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39857
+[2015-05-19 21:23:54.829][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39858
+[2015-05-19 21:25:54.840][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39859
+[2015-05-19 21:27:54.850][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39860
+[2015-05-19 21:29:54.861][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39861
+[2015-05-19 21:31:54.878][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39862
+[2015-05-19 21:33:54.897][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39863
+[2015-05-19 21:35:54.907][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39864
+[2015-05-19 21:37:54.918][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39865
+[2015-05-19 21:39:54.934][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39866
+[2015-05-19 21:41:54.945][INF] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0 port=39867
+[2015-05-19 21:43:40.014][DBG] StreamTranClient---HPR_ThreadPoolFlex_Work 0xa9c8e008[0] is busy.
+[2015-05-19 21:43:40.023][ERR] StreamTranClient---[0]rtsp recv err!
+[2015-05-19 21:43:40.125][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::DoExchange] recv timeout[2], m_bReConnecting[0], maxtimes[6]!
+[2015-05-19 21:43:45.125][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::DoExchange] recv timeout[3], m_bReConnecting[0], maxtimes[6]!
+[2015-05-19 21:43:50.014][DBG] StreamTranClient---HPR_ThreadPoolFlex_Work 0xa9c8e008[0] is busy.
+[2015-05-19 21:43:50.034][ERR] StreamTranClient---[0]rtsp recv err!
+[2015-05-19 21:43:50.125][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::DoExchange] recv timeout[4], m_bReConnecting[0], maxtimes[6]!
+[2015-05-19 21:43:55.014][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::GetStreamData] recv error[73], sysError[0]
+[2015-05-19 21:43:55.014][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::GetStreamDataType] RTSP DATA error, pRecvdata is to short to get datatype
+[2015-05-19 21:43:55.014][ERR] CStreamConvert::Convert SYSTRANS_InputData fail -1474218624 [0x80000003], dataLen[0]
+[2015-05-19 21:43:55.014][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::GetStreamData] recv status[73], length[0]
+[2015-05-19 21:43:55.126][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkToDvr] start preview  reConnectThread
+[2015-05-19 21:43:55.126][DBG] StreamTranClient---[0]rtsp Stop in!
+[2015-05-19 21:43:55.215][ERR] StreamTranClient---[0]rtsp recv err!
+[2015-05-19 21:43:55.315][ERR] StreamTranClient---[0]rtsp recv err!
+[2015-05-19 21:43:55.315][INF] StreamTranClient---rtsp portthis[8d5ad98]resuse tcp port=20000, size=511
+[2015-05-19 21:43:57.953][ERR] Private connect 192.0.0.64:8000 sock=38 this=0xab1e000c cmd=0x26 sys_err=113
+[2015-05-19 21:44:00.115][ERR] StreamTranClient---[0]rtsp recv err!
+[2015-05-19 21:44:05.325][DBG] StreamTranClient---[0]rtsp Stop out!
+[2015-05-19 21:44:05.325][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return 0
+[2015-05-19 21:44:05.325][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:44:06.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:06.958][INF] StreamTranClient---TransClientHandle=1 Ptr=0xb3c0cfd0£¬TotolNum=1
+[2015-05-19 21:44:06.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:44:09.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:09.958][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:09.958][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:44:12.953][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:44:12.953][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:44:12.953][DBG] StreamTranClient---[1]rtsp init sock failed
+[2015-05-19 21:44:12.953][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:44:12.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:44:12.953][DBG] StreamTranClient---[1]rtsp Stop in!
+[2015-05-19 21:44:12.953][DBG] StreamTranClient---[1]rtsp Stop out!
+[2015-05-19 21:44:12.953][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:44:12.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:13.954][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:44:15.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:15.958][INF] StreamTranClient---TransClientHandle=2 Ptr=0xb3c0cfd0£¬TotolNum=1
+[2015-05-19 21:44:15.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:44:18.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:18.958][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:18.958][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:44:21.953][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:44:21.953][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:44:21.953][DBG] StreamTranClient---[2]rtsp init sock failed
+[2015-05-19 21:44:21.953][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:44:21.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:44:21.953][DBG] StreamTranClient---[2]rtsp Stop in!
+[2015-05-19 21:44:21.953][DBG] StreamTranClient---[2]rtsp Stop out!
+[2015-05-19 21:44:21.953][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[2]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:44:21.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:22.954][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:44:24.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:24.958][INF] StreamTranClient---TransClientHandle=3 Ptr=0xb3c0cfd0£¬TotolNum=1
+[2015-05-19 21:44:24.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:44:27.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:27.958][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:27.958][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:44:30.953][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:44:30.953][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:44:30.953][DBG] StreamTranClient---[3]rtsp init sock failed
+[2015-05-19 21:44:30.953][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:44:30.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:44:30.953][DBG] StreamTranClient---[3]rtsp Stop in!
+[2015-05-19 21:44:30.953][DBG] StreamTranClient---[3]rtsp Stop out!
+[2015-05-19 21:44:30.953][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:44:30.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:31.953][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:44:33.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:33.958][INF] StreamTranClient---TransClientHandle=4 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:44:33.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:44:36.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:36.958][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:36.958][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:44:39.953][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:44:39.953][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:44:39.953][DBG] StreamTranClient---[4]rtsp init sock failed
+[2015-05-19 21:44:39.953][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:44:39.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:44:39.953][DBG] StreamTranClient---[4]rtsp Stop in!
+[2015-05-19 21:44:39.953][DBG] StreamTranClient---[4]rtsp Stop out!
+[2015-05-19 21:44:39.953][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:44:39.953][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:40.953][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:44:42.953][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:42.958][INF] StreamTranClient---TransClientHandle=5 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:44:42.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:44:45.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:45.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:45.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:44:48.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:44:48.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:44:48.957][DBG] StreamTranClient---[5]rtsp init sock failed
+[2015-05-19 21:44:48.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:44:48.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:44:48.957][DBG] StreamTranClient---[5]rtsp Stop in!
+[2015-05-19 21:44:48.957][DBG] StreamTranClient---[5]rtsp Stop out!
+[2015-05-19 21:44:48.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:44:48.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:49.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:44:51.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:51.962][INF] StreamTranClient---TransClientHandle=6 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:44:51.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:44:54.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:44:54.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:54.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:44:57.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:44:57.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:44:57.957][DBG] StreamTranClient---[6]rtsp init sock failed
+[2015-05-19 21:44:57.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:44:57.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:44:57.957][DBG] StreamTranClient---[6]rtsp Stop in!
+[2015-05-19 21:44:57.957][DBG] StreamTranClient---[6]rtsp Stop out!
+[2015-05-19 21:44:57.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:44:57.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:44:58.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:00.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:00.962][INF] StreamTranClient---TransClientHandle=7 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:00.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:03.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:03.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:03.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:45:06.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:45:06.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:45:06.957][DBG] StreamTranClient---[7]rtsp init sock failed
+[2015-05-19 21:45:06.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:45:06.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:45:06.957][DBG] StreamTranClient---[7]rtsp Stop in!
+[2015-05-19 21:45:06.957][DBG] StreamTranClient---[7]rtsp Stop out!
+[2015-05-19 21:45:06.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:45:06.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:07.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:09.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:09.962][INF] StreamTranClient---TransClientHandle=8 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:09.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:12.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:12.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:12.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:45:15.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:45:15.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:45:15.957][DBG] StreamTranClient---[8]rtsp init sock failed
+[2015-05-19 21:45:15.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:45:15.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:45:15.957][DBG] StreamTranClient---[8]rtsp Stop in!
+[2015-05-19 21:45:15.957][DBG] StreamTranClient---[8]rtsp Stop out!
+[2015-05-19 21:45:15.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:45:15.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:16.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:18.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:18.962][INF] StreamTranClient---TransClientHandle=9 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:18.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:21.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:21.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:21.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:45:24.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:45:24.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:45:24.957][DBG] StreamTranClient---[9]rtsp init sock failed
+[2015-05-19 21:45:24.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:45:24.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:45:24.957][DBG] StreamTranClient---[9]rtsp Stop in!
+[2015-05-19 21:45:24.957][DBG] StreamTranClient---[9]rtsp Stop out!
+[2015-05-19 21:45:24.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:45:24.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:25.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:27.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:27.962][INF] StreamTranClient---TransClientHandle=10 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:27.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[10]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:30.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:30.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:30.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[10]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:45:33.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:45:33.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:45:33.957][DBG] StreamTranClient---[10]rtsp init sock failed
+[2015-05-19 21:45:33.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:45:33.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[10]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:45:33.957][DBG] StreamTranClient---[10]rtsp Stop in!
+[2015-05-19 21:45:33.957][DBG] StreamTranClient---[10]rtsp Stop out!
+[2015-05-19 21:45:33.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[10]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:45:33.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:34.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:36.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:36.962][INF] StreamTranClient---TransClientHandle=11 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:36.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:39.959][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:39.964][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:39.964][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:45:42.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:45:42.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:45:42.957][DBG] StreamTranClient---[11]rtsp init sock failed
+[2015-05-19 21:45:42.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:45:42.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:45:42.957][DBG] StreamTranClient---[11]rtsp Stop in!
+[2015-05-19 21:45:42.957][DBG] StreamTranClient---[11]rtsp Stop out!
+[2015-05-19 21:45:42.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:45:42.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:43.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:45.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:45.962][INF] StreamTranClient---TransClientHandle=12 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:45.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:48.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:48.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:48.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:45:51.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:45:51.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:45:51.957][DBG] StreamTranClient---[12]rtsp init sock failed
+[2015-05-19 21:45:51.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:45:51.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:45:51.957][DBG] StreamTranClient---[12]rtsp Stop in!
+[2015-05-19 21:45:51.957][DBG] StreamTranClient---[12]rtsp Stop out!
+[2015-05-19 21:45:51.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:45:51.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:52.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:45:54.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:54.962][INF] StreamTranClient---TransClientHandle=13 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:45:54.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:45:57.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:45:57.957][ERR] Private connect 192.0.0.64:8000 sock=34 this=0xab1e4254 cmd=0x22 sys_err=113
+[2015-05-19 21:45:57.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:45:57.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:00.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:00.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:00.957][DBG] StreamTranClient---[13]rtsp init sock failed
+[2015-05-19 21:46:00.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:00.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:00.957][DBG] StreamTranClient---[13]rtsp Stop in!
+[2015-05-19 21:46:00.957][DBG] StreamTranClient---[13]rtsp Stop out!
+[2015-05-19 21:46:00.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:00.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:01.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:03.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:03.962][INF] StreamTranClient---TransClientHandle=14 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:03.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:46:06.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:06.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:06.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:09.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:09.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:09.957][DBG] StreamTranClient---[14]rtsp init sock failed
+[2015-05-19 21:46:09.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:09.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:09.957][DBG] StreamTranClient---[14]rtsp Stop in!
+[2015-05-19 21:46:09.957][DBG] StreamTranClient---[14]rtsp Stop out!
+[2015-05-19 21:46:09.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:09.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:10.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:12.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:12.962][INF] StreamTranClient---TransClientHandle=15 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:12.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:46:15.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:15.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:15.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:18.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:18.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:18.957][DBG] StreamTranClient---[15]rtsp init sock failed
+[2015-05-19 21:46:18.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:18.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:18.957][DBG] StreamTranClient---[15]rtsp Stop in!
+[2015-05-19 21:46:18.957][DBG] StreamTranClient---[15]rtsp Stop out!
+[2015-05-19 21:46:18.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:18.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:19.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:21.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:21.962][INF] StreamTranClient---TransClientHandle=16 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:21.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:46:24.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:24.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:24.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:27.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:27.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:27.957][DBG] StreamTranClient---[16]rtsp init sock failed
+[2015-05-19 21:46:27.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:27.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:27.957][DBG] StreamTranClient---[16]rtsp Stop in!
+[2015-05-19 21:46:27.957][DBG] StreamTranClient---[16]rtsp Stop out!
+[2015-05-19 21:46:27.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:27.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:28.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:30.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:30.962][INF] StreamTranClient---TransClientHandle=17 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:30.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[17]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:46:33.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:33.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:33.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[17]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:36.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:36.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:36.957][DBG] StreamTranClient---[17]rtsp init sock failed
+[2015-05-19 21:46:36.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:36.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[17]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:36.957][DBG] StreamTranClient---[17]rtsp Stop in!
+[2015-05-19 21:46:36.957][DBG] StreamTranClient---[17]rtsp Stop out!
+[2015-05-19 21:46:36.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[17]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:36.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:37.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:39.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:39.962][INF] StreamTranClient---TransClientHandle=18 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:39.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[18]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:46:42.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:42.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:42.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[18]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:45.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:45.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:45.957][DBG] StreamTranClient---[18]rtsp init sock failed
+[2015-05-19 21:46:45.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:45.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[18]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:45.957][DBG] StreamTranClient---[18]rtsp Stop in!
+[2015-05-19 21:46:45.957][DBG] StreamTranClient---[18]rtsp Stop out!
+[2015-05-19 21:46:45.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[18]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:45.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:46.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:48.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:48.962][INF] StreamTranClient---TransClientHandle=19 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:48.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[19]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:46:51.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:51.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:51.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[19]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:46:54.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:46:54.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:46:54.957][DBG] StreamTranClient---[19]rtsp init sock failed
+[2015-05-19 21:46:54.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:46:54.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[19]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:46:54.957][DBG] StreamTranClient---[19]rtsp Stop in!
+[2015-05-19 21:46:54.957][DBG] StreamTranClient---[19]rtsp Stop out!
+[2015-05-19 21:46:54.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[19]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:46:54.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:46:55.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:46:57.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:46:57.962][INF] StreamTranClient---TransClientHandle=20 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:46:57.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[20]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:00.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:00.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:00.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[20]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:03.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:03.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:03.957][DBG] StreamTranClient---[20]rtsp init sock failed
+[2015-05-19 21:47:03.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:03.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[20]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:03.957][DBG] StreamTranClient---[20]rtsp Stop in!
+[2015-05-19 21:47:03.957][DBG] StreamTranClient---[20]rtsp Stop out!
+[2015-05-19 21:47:03.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[20]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:03.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:04.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:47:06.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:06.962][INF] StreamTranClient---TransClientHandle=21 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:47:06.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[21]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:09.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:09.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:09.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[21]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:12.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:12.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:12.957][DBG] StreamTranClient---[21]rtsp init sock failed
+[2015-05-19 21:47:12.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:12.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[21]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:12.957][DBG] StreamTranClient---[21]rtsp Stop in!
+[2015-05-19 21:47:12.957][DBG] StreamTranClient---[21]rtsp Stop out!
+[2015-05-19 21:47:12.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[21]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:12.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:13.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:47:15.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:15.962][INF] StreamTranClient---TransClientHandle=22 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:47:15.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[22]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:18.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:18.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:18.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[22]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:21.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:21.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:21.957][DBG] StreamTranClient---[22]rtsp init sock failed
+[2015-05-19 21:47:21.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:21.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[22]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:21.957][DBG] StreamTranClient---[22]rtsp Stop in!
+[2015-05-19 21:47:21.957][DBG] StreamTranClient---[22]rtsp Stop out!
+[2015-05-19 21:47:21.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[22]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:21.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:22.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:47:24.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:24.962][INF] StreamTranClient---TransClientHandle=23 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:47:24.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[23]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:27.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:27.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:27.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[23]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:30.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:30.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:30.957][DBG] StreamTranClient---[23]rtsp init sock failed
+[2015-05-19 21:47:30.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:30.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[23]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:30.957][DBG] StreamTranClient---[23]rtsp Stop in!
+[2015-05-19 21:47:30.957][DBG] StreamTranClient---[23]rtsp Stop out!
+[2015-05-19 21:47:30.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[23]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:30.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:31.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:47:33.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:33.962][INF] StreamTranClient---TransClientHandle=24 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:47:33.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[24]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:36.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:36.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:36.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[24]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:39.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:39.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:39.957][DBG] StreamTranClient---[24]rtsp init sock failed
+[2015-05-19 21:47:39.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:39.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[24]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:39.957][DBG] StreamTranClient---[24]rtsp Stop in!
+[2015-05-19 21:47:39.957][DBG] StreamTranClient---[24]rtsp Stop out!
+[2015-05-19 21:47:39.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[24]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:39.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:40.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:47:42.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:42.962][INF] StreamTranClient---TransClientHandle=25 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:47:42.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[25]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:45.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:45.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:45.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[25]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:48.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:48.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:48.957][DBG] StreamTranClient---[25]rtsp init sock failed
+[2015-05-19 21:47:48.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:48.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[25]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:48.957][DBG] StreamTranClient---[25]rtsp Stop in!
+[2015-05-19 21:47:48.957][DBG] StreamTranClient---[25]rtsp Stop out!
+[2015-05-19 21:47:48.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[25]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:48.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:49.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:47:51.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:51.962][INF] StreamTranClient---TransClientHandle=26 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:47:51.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[26]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:47:54.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:47:54.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:54.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[26]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:47:57.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:47:57.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:47:57.957][DBG] StreamTranClient---[26]rtsp init sock failed
+[2015-05-19 21:47:57.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:47:57.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[26]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:47:57.957][DBG] StreamTranClient---[26]rtsp Stop in!
+[2015-05-19 21:47:57.957][DBG] StreamTranClient---[26]rtsp Stop out!
+[2015-05-19 21:47:57.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[26]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:47:57.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:47:57.957][ERR] Private connect 192.0.0.64:8000 sock=34 this=0xab1e000c cmd=0x22 sys_err=113
+[2015-05-19 21:47:58.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:48:00.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:00.962][INF] StreamTranClient---TransClientHandle=27 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:48:00.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[27]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:48:03.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:03.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:03.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[27]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:48:06.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:48:06.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:48:06.957][DBG] StreamTranClient---[27]rtsp init sock failed
+[2015-05-19 21:48:06.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:48:06.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[27]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:48:06.957][DBG] StreamTranClient---[27]rtsp Stop in!
+[2015-05-19 21:48:06.957][DBG] StreamTranClient---[27]rtsp Stop out!
+[2015-05-19 21:48:06.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[27]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:48:06.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:07.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:48:09.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:09.962][INF] StreamTranClient---TransClientHandle=28 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:48:09.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[28]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:48:12.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:12.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:12.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[28]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:48:15.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:48:15.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:48:15.957][DBG] StreamTranClient---[28]rtsp init sock failed
+[2015-05-19 21:48:15.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:48:15.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[28]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:48:15.957][DBG] StreamTranClient---[28]rtsp Stop in!
+[2015-05-19 21:48:15.957][DBG] StreamTranClient---[28]rtsp Stop out!
+[2015-05-19 21:48:15.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[28]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:48:15.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:16.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:48:18.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:18.962][INF] StreamTranClient---TransClientHandle=29 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:48:18.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[29]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:48:21.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:21.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:21.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[29]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:48:24.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:48:24.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:48:24.957][DBG] StreamTranClient---[29]rtsp init sock failed
+[2015-05-19 21:48:24.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:48:24.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[29]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:48:24.957][DBG] StreamTranClient---[29]rtsp Stop in!
+[2015-05-19 21:48:24.957][DBG] StreamTranClient---[29]rtsp Stop out!
+[2015-05-19 21:48:24.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[29]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:48:24.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:25.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:48:27.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:27.962][INF] StreamTranClient---TransClientHandle=30 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:48:27.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[30]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:48:30.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:30.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:30.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[30]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:48:33.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:48:33.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:48:33.957][DBG] StreamTranClient---[30]rtsp init sock failed
+[2015-05-19 21:48:33.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:48:33.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[30]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:48:33.957][DBG] StreamTranClient---[30]rtsp Stop in!
+[2015-05-19 21:48:33.957][DBG] StreamTranClient---[30]rtsp Stop out!
+[2015-05-19 21:48:33.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[30]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:48:33.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:34.957][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview start RelinkToDVR
+[2015-05-19 21:48:36.610][INF] Listen stop notice thread to exit
+[2015-05-19 21:48:36.614][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-19 21:48:36.957][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xab1e000c cmd=0x21 sys_err=113
+[2015-05-19 21:48:36.962][INF] StreamTranClient---TransClientHandle=31 Ptr=0xb3c0cdc8£¬TotolNum=1
+[2015-05-19 21:48:36.962][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[31]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[8caf54c]
+[2015-05-19 21:48:39.957][ERR] Private connect 192.0.0.64:8000 sock=25 this=0xab1e000c cmd=0x19 sys_err=113
+[2015-05-19 21:48:39.962][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:39.962][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[31]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start in
+[2015-05-19 21:48:42.957][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-19 21:48:42.957][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-19 21:48:42.957][DBG] StreamTranClient---[31]rtsp init sock failed
+[2015-05-19 21:48:42.957][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-19 21:48:42.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[31]  [CRtspProtocolInstance::SendHeaderWithRecv] this[8caf54c] start out err[7]
+[2015-05-19 21:48:42.957][DBG] StreamTranClient---[31]rtsp Stop in!
+[2015-05-19 21:48:42.957][DBG] StreamTranClient---[31]rtsp Stop out!
+[2015-05-19 21:48:42.957][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[31]  [CRtspProtocolInstance::StopLinkInConnection] this[8caf54c] stop session return -1
+[2015-05-19 21:48:42.957][ERR] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-19 21:48:43.957][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::RelinkThread] ASYN preview HeartThread exit
+[2015-05-19 21:48:43.958][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-19 21:48:43.958][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-19 21:48:43.991][INF] CTransUnitMgr::UnloadTransUnitLib
+[2015-05-19 21:48:47.215][DBG] StreamTranClient---Destroy asyncio queue succ!
+[2015-05-19 21:48:47.315][INF] CTransUnitMgr::UnloadTransUnitLib, m_iInitCount = 0
+[2015-05-19 21:48:50.317][ERR] Private connect 192.0.0.64:8000 sock=25 this=0xab1e000c cmd=0x19 sys_err=113
+[2015-05-19 21:48:53.169][DBG] stop time thread

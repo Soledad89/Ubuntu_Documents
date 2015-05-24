@@ -1,0 +1,875 @@
+[2015-05-16 10:43:35.541][INF] The COM:Preview ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:35.542][INF] The COM:Core ver is 5.0.3.4, 2015_01_14. Async:1.
+[2015-05-16 10:43:35.542][INF] This hcnetsdk ver is 5.0.3.4 Ver 2015_01_14.
+[2015-05-16 10:43:35.664][INF] The COM:HCAlarm ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:35.664][INF] Listen Proc get Addr[0x9ef2bdc]
+[2015-05-16 10:43:46.464][INF] login dev 192.0.0.64.
+[2015-05-16 10:43:46.469][INF] Private connect 192.0.0.64:8000 sock=27 this=0xaf9d900c cmd=0x10000 port=35269
+[2015-05-16 10:43:46.469][INF] LogonDev1 in
+[2015-05-16 10:43:46.477][INF] LogonDev1 in twice
+[2015-05-16 10:43:46.501][INF] The COM:VoiceTalk ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:46.539][INF] The COM:HCGeneralCfgMgr ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:46.546][INF] The COM:HCPlayback ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:46.565][INF] The COM:HCIndustry ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:46.576][INF] The COM:HCDisplay ver is 5.0.3.4, 2015_01_14.
+[2015-05-16 10:43:46.591][INF] Private connect 192.0.0.64:8000 sock=27 this=0xaf9d900c cmd=0x110150 port=35270
+[2015-05-16 10:43:46.598][ERR] dwCommToDVR[0x110150] SimpleCommandToDvr
+[2015-05-16 10:43:46.598][INF] Private connect 192.0.0.64:8000 sock=27 this=0xaf9d900c cmd=0x20000 port=35271
+[2015-05-16 10:43:46.608][INF] Private connect 192.0.0.64:8000 sock=27 this=0xaf9d900c cmd=0 port=35272
+[2015-05-16 10:43:55.631][INF] login dev 192.0.0.64.
+[2015-05-16 10:43:55.631][INF] Private connect 192.0.0.64:8000 sock=27 this=0xaf9d900c cmd=0x10000 port=35273
+[2015-05-16 10:43:55.631][INF] LogonDev1 in
+[2015-05-16 10:43:55.640][INF] LogonDev1 in twice
+[2015-05-16 10:43:55.772][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:43:55.772][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:43:55.772][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:43:55.773][INF] Private connect 192.0.0.64:8000 sock=27 this=0xaf9d900c cmd=0x20c04 port=35274
+[2015-05-16 10:43:55.895][INF] GlobalCtrl load [.//HCNetSDKCom//libStreamTransClient.so] with sdk path success and get handle[0xa2677e8]
+[2015-05-16 10:43:55.896][DBG] StreamTranClient---Create asyncio queue succ!
+[2015-05-16 10:43:55.896][INF] StreamTranClient---version:this RTSP version is 1.1.2.16 2014_12_01..
+[2015-05-16 10:43:55.896][INF] StreamTranClient---version:this RTSP version is asyn..
+[2015-05-16 10:43:55.896][INF] CTransUnitMgr::LoadTransUnitLib Load Succ, m_iInitCount = 0
+[2015-05-16 10:43:55.896][INF] StreamTranClient---TransClientHandle=0 Ptr=0xa269530£¬TotolNum=1
+[2015-05-16 10:43:55.896][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:43:55.897][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35275
+[2015-05-16 10:43:55.905][INF] ID-IP-CHAN[0-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:43:55.905][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:43:55.906][DBG] StreamTranClient---[0]rtsp decribe in
+[2015-05-16 10:43:55.912][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:43:55.912][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20000, size=511
+[2015-05-16 10:43:55.916][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:43:55.916][DBG] StreamTranClient---[0]rtsp play in
+[2015-05-16 10:43:55.932][DBG] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:43:55.938][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:43:55.968][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa27c460]
+[2015-05-16 10:43:55.968][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:43:55.977][DBG] ID-IP-CHAN[0-192.0.0.64-1] RTP Format
+[2015-05-16 10:43:55.977][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:43:55.979][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35277
+[2015-05-16 10:43:55.987][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35278
+[2015-05-16 10:43:56.300][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35279
+[2015-05-16 10:43:56.619][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35280
+[2015-05-16 10:43:56.893][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35281
+[2015-05-16 10:44:16.247][INF] ID-IP-CHAN[0-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:44:16.263][DBG] StreamTranClient---[0]rtsp Stop in!
+[2015-05-16 10:44:16.300][ERR] StreamTranClient---[a269b30]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:44:16.301][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20000, size=511
+[2015-05-16 10:44:16.317][DBG] StreamTranClient---[0]rtsp Stop out!
+[2015-05-16 10:44:16.317][INF] ID-IP-CHAN[0-192.0.0.64-1] rtsp_session[0]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:44:16.317][DBG] ID-IP-CHAN[0-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:44:16.317][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:44:18.892][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20000 port=35282
+[2015-05-16 10:44:18.901][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110000 port=35283
+[2015-05-16 10:44:19.851][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20000 port=35284
+[2015-05-16 10:44:19.859][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110150 port=35285
+[2015-05-16 10:44:19.867][ERR] dwCommToDVR[0x110150] SimpleCommandToDvr
+[2015-05-16 10:44:19.867][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20000 port=35286
+[2015-05-16 10:44:19.879][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110150 port=35287
+[2015-05-16 10:44:19.887][ERR] dwCommToDVR[0x110150] SimpleCommandToDvr
+[2015-05-16 10:44:19.887][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110040 port=35288
+[2015-05-16 10:44:19.896][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110020 port=35289
+[2015-05-16 10:44:19.907][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110010 port=35290
+[2015-05-16 10:44:19.924][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x110130 port=35291
+[2015-05-16 10:44:23.649][INF] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:44:23.649][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:44:23.649][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:44:23.650][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35292
+[2015-05-16 10:44:23.658][INF] StreamTranClient---TransClientHandle=1 Ptr=0xa4bd148£¬TotolNum=1
+[2015-05-16 10:44:23.658][DBG] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:44:23.659][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35293
+[2015-05-16 10:44:23.667][INF] ID-IP-CHAN[1-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:44:23.667][INF] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:44:23.668][DBG] StreamTranClient---[1]rtsp decribe in
+[2015-05-16 10:44:23.673][DBG] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:44:23.673][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20002, size=511
+[2015-05-16 10:44:23.678][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:44:23.679][DBG] StreamTranClient---[1]rtsp play in
+[2015-05-16 10:44:23.683][DBG] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:44:23.686][INF] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:44:23.687][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa5a2ff8]
+[2015-05-16 10:44:23.687][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:44:23.687][DBG] ID-IP-CHAN[1-192.0.0.64-1] RTP Format
+[2015-05-16 10:44:23.687][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:44:23.688][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35295
+[2015-05-16 10:44:23.696][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35296
+[2015-05-16 10:44:23.993][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35297
+[2015-05-16 10:44:24.335][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35298
+[2015-05-16 10:44:24.606][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35299
+[2015-05-16 10:44:26.279][INF] ID-IP-CHAN[1-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:44:26.280][DBG] StreamTranClient---[1]rtsp Stop in!
+[2015-05-16 10:44:26.300][ERR] StreamTranClient---[a52c610]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:44:26.301][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20002, size=511
+[2015-05-16 10:44:26.306][DBG] StreamTranClient---[1]rtsp Stop out!
+[2015-05-16 10:44:26.307][INF] ID-IP-CHAN[1-192.0.0.64-1] rtsp_session[1]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:44:26.307][DBG] ID-IP-CHAN[1-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:44:26.307][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:44:26.319][INF] ID-IP-CHAN[2-192.0.0.64-2] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:44:26.319][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:44:26.319][DBG] ID-IP-CHAN[2-192.0.0.64-2] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:44:26.320][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35300
+[2015-05-16 10:44:26.327][INF] StreamTranClient---TransClientHandle=2 Ptr=0xa5a04e0£¬TotolNum=1
+[2015-05-16 10:44:26.327][DBG] ID-IP-CHAN[2-192.0.0.64-2] rtsp_session[2]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:44:26.328][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35301
+[2015-05-16 10:44:26.342][INF] ID-IP-CHAN[2-192.0.0.64-2] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch02/main/av_stream
+[2015-05-16 10:44:26.342][INF] ID-IP-CHAN[2-192.0.0.64-2] rtsp_session[2]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:44:26.343][DBG] StreamTranClient---[2]rtsp decribe in
+[2015-05-16 10:44:26.346][DBG] ID-IP-CHAN[2-192.0.0.64-2] rtsp_session[2]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:44:26.346][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20004, size=511
+[2015-05-16 10:44:26.352][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:44:26.352][DBG] StreamTranClient---[2]rtsp play in
+[2015-05-16 10:44:26.357][DBG] ID-IP-CHAN[2-192.0.0.64-2] rtsp_session[2]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:44:26.361][INF] ID-IP-CHAN[2-192.0.0.64-2] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:44:26.361][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa59f768]
+[2015-05-16 10:44:26.361][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:44:26.361][DBG] ID-IP-CHAN[2-192.0.0.64-2] RTP Format
+[2015-05-16 10:44:26.361][DBG] ID-IP-CHAN[2-192.0.0.64-2] [CPreviewSession::Start] SUCC
+[2015-05-16 10:44:26.363][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35303
+[2015-05-16 10:44:29.640][INF] ID-IP-CHAN[2-192.0.0.64-2] [CPreviewSession::Stop]
+[2015-05-16 10:44:29.640][DBG] StreamTranClient---[2]rtsp Stop in!
+[2015-05-16 10:44:29.661][ERR] StreamTranClient---[a5a0ae0]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:44:29.662][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20004, size=511
+[2015-05-16 10:44:29.667][DBG] StreamTranClient---[2]rtsp Stop out!
+[2015-05-16 10:44:29.667][INF] ID-IP-CHAN[2-192.0.0.64-2] rtsp_session[2]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:44:29.667][DBG] ID-IP-CHAN[2-192.0.0.64-2] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:44:29.667][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:44:29.678][INF] ID-IP-CHAN[3-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:44:29.678][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:44:29.678][DBG] ID-IP-CHAN[3-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:44:29.679][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35304
+[2015-05-16 10:44:29.687][INF] StreamTranClient---TransClientHandle=3 Ptr=0xa5a04e0£¬TotolNum=1
+[2015-05-16 10:44:29.687][DBG] ID-IP-CHAN[3-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:44:29.688][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35305
+[2015-05-16 10:44:29.696][INF] ID-IP-CHAN[3-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:44:29.696][INF] ID-IP-CHAN[3-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:44:29.697][DBG] StreamTranClient---[3]rtsp decribe in
+[2015-05-16 10:44:29.700][DBG] ID-IP-CHAN[3-192.0.0.64-1] rtsp_session[3]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:44:29.701][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20006, size=511
+[2015-05-16 10:44:29.707][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:44:29.707][DBG] StreamTranClient---[3]rtsp play in
+[2015-05-16 10:44:29.711][DBG] ID-IP-CHAN[3-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:44:29.714][INF] ID-IP-CHAN[3-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:44:29.714][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa59f348]
+[2015-05-16 10:44:29.714][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:44:29.714][DBG] ID-IP-CHAN[3-192.0.0.64-1] RTP Format
+[2015-05-16 10:44:29.714][DBG] ID-IP-CHAN[3-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:44:29.715][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35307
+[2015-05-16 10:45:55.664][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0 port=35308
+[2015-05-16 10:46:07.694][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35309
+[2015-05-16 10:46:07.903][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35310
+[2015-05-16 10:46:08.143][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35311
+[2015-05-16 10:46:08.352][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35312
+[2015-05-16 10:46:08.583][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35313
+[2015-05-16 10:46:08.879][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35314
+[2015-05-16 10:46:09.151][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35315
+[2015-05-16 10:46:09.802][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35316
+[2015-05-16 10:46:09.991][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35317
+[2015-05-16 10:46:10.367][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35318
+[2015-05-16 10:46:10.544][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35319
+[2015-05-16 10:46:11.120][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35320
+[2015-05-16 10:46:11.304][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30200 port=35321
+[2015-05-16 10:46:17.127][INF] ID-IP-CHAN[3-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:46:17.137][DBG] StreamTranClient---[3]rtsp Stop in!
+[2015-05-16 10:46:17.165][ERR] StreamTranClient---[a5a0ae0]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:46:17.166][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20006, size=511
+[2015-05-16 10:46:17.181][DBG] StreamTranClient---[3]rtsp Stop out!
+[2015-05-16 10:46:17.181][INF] ID-IP-CHAN[3-192.0.0.64-1] rtsp_session[3]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:46:17.181][DBG] ID-IP-CHAN[3-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:46:17.182][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:46:25.329][INF] ID-IP-CHAN[4-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:46:25.329][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:46:25.329][DBG] ID-IP-CHAN[4-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:46:25.330][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35322
+[2015-05-16 10:46:25.337][INF] StreamTranClient---TransClientHandle=4 Ptr=0x9f4cea0£¬TotolNum=1
+[2015-05-16 10:46:25.337][DBG] ID-IP-CHAN[4-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:46:25.337][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35323
+[2015-05-16 10:46:25.344][INF] ID-IP-CHAN[4-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:46:25.344][INF] ID-IP-CHAN[4-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:46:25.345][DBG] StreamTranClient---[4]rtsp decribe in
+[2015-05-16 10:46:25.349][DBG] ID-IP-CHAN[4-192.0.0.64-1] rtsp_session[4]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:46:25.349][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20008, size=511
+[2015-05-16 10:46:25.355][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:46:25.355][DBG] StreamTranClient---[4]rtsp play in
+[2015-05-16 10:46:25.360][DBG] ID-IP-CHAN[4-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:46:25.365][INF] ID-IP-CHAN[4-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:46:25.365][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0x9fc7e00]
+[2015-05-16 10:46:25.365][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:46:25.366][DBG] ID-IP-CHAN[4-192.0.0.64-1] RTP Format
+[2015-05-16 10:46:25.366][DBG] ID-IP-CHAN[4-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:46:25.366][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35325
+[2015-05-16 10:46:25.374][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35326
+[2015-05-16 10:46:25.666][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35327
+[2015-05-16 10:46:25.948][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35328
+[2015-05-16 10:46:26.231][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35329
+[2015-05-16 10:46:33.744][INF] ID-IP-CHAN[4-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:46:33.754][DBG] StreamTranClient---[4]rtsp Stop in!
+[2015-05-16 10:46:33.765][ERR] StreamTranClient---[9f4d4a0]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:46:33.766][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20008, size=511
+[2015-05-16 10:46:33.784][DBG] StreamTranClient---[4]rtsp Stop out!
+[2015-05-16 10:46:33.784][INF] ID-IP-CHAN[4-192.0.0.64-1] rtsp_session[4]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:46:33.784][DBG] ID-IP-CHAN[4-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:46:33.784][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:46:51.273][INF] ID-IP-CHAN[5-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:46:51.273][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:46:51.273][DBG] ID-IP-CHAN[5-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:46:51.275][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35330
+[2015-05-16 10:46:51.284][INF] StreamTranClient---TransClientHandle=5 Ptr=0xa670540£¬TotolNum=1
+[2015-05-16 10:46:51.284][DBG] ID-IP-CHAN[5-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:46:51.284][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35331
+[2015-05-16 10:46:51.293][INF] ID-IP-CHAN[5-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:46:51.293][INF] ID-IP-CHAN[5-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:46:51.293][DBG] StreamTranClient---[5]rtsp decribe in
+[2015-05-16 10:46:51.299][DBG] ID-IP-CHAN[5-192.0.0.64-1] rtsp_session[5]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:46:51.299][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20010, size=511
+[2015-05-16 10:46:51.305][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:46:51.306][DBG] StreamTranClient---[5]rtsp play in
+[2015-05-16 10:46:51.309][DBG] ID-IP-CHAN[5-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:46:51.312][INF] ID-IP-CHAN[5-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:46:51.314][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa6a2228]
+[2015-05-16 10:46:51.315][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:46:51.315][DBG] ID-IP-CHAN[5-192.0.0.64-1] RTP Format
+[2015-05-16 10:46:51.315][DBG] ID-IP-CHAN[5-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:46:51.320][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35333
+[2015-05-16 10:46:51.327][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35334
+[2015-05-16 10:46:51.621][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35335
+[2015-05-16 10:46:51.892][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35336
+[2015-05-16 10:46:52.207][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35337
+[2015-05-16 10:46:56.154][INF] ID-IP-CHAN[5-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:46:56.154][DBG] StreamTranClient---[5]rtsp Stop in!
+[2015-05-16 10:46:56.185][ERR] StreamTranClient---[a489ed8]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:46:56.186][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20010, size=511
+[2015-05-16 10:46:56.192][DBG] StreamTranClient---[5]rtsp Stop out!
+[2015-05-16 10:46:56.192][INF] ID-IP-CHAN[5-192.0.0.64-1] rtsp_session[5]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:46:56.192][DBG] ID-IP-CHAN[5-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:46:56.192][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:46:57.207][INF] ID-IP-CHAN[6-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:46:57.207][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:46:57.207][DBG] ID-IP-CHAN[6-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:46:57.208][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35338
+[2015-05-16 10:46:57.214][INF] StreamTranClient---TransClientHandle=6 Ptr=0xa4895b0£¬TotolNum=1
+[2015-05-16 10:46:57.215][DBG] ID-IP-CHAN[6-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:46:57.215][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35339
+[2015-05-16 10:46:57.223][INF] ID-IP-CHAN[6-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:46:57.223][INF] ID-IP-CHAN[6-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:46:57.225][DBG] StreamTranClient---[6]rtsp decribe in
+[2015-05-16 10:46:57.230][DBG] ID-IP-CHAN[6-192.0.0.64-1] rtsp_session[6]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:46:57.230][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20012, size=511
+[2015-05-16 10:46:57.237][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:46:57.237][DBG] StreamTranClient---[6]rtsp play in
+[2015-05-16 10:46:57.241][DBG] ID-IP-CHAN[6-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:46:57.244][INF] ID-IP-CHAN[6-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:46:57.245][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa489bb8]
+[2015-05-16 10:46:57.245][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:46:57.245][DBG] ID-IP-CHAN[6-192.0.0.64-1] RTP Format
+[2015-05-16 10:46:57.245][DBG] ID-IP-CHAN[6-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:46:57.246][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35341
+[2015-05-16 10:47:00.315][INF] CStreamConvert::LoadConvertLib Lib Already Load, m_iInitCount = 2
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [40][40] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [116][116] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [40][40] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.348][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [192][192] success
+[2015-05-16 10:47:01.396][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.396][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.396][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [520][520] success
+[2015-05-16 10:47:01.396][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [496][496] success
+[2015-05-16 10:47:01.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [488][488] success
+[2015-05-16 10:47:01.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [624][624] success
+[2015-05-16 10:47:01.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [988][988] success
+[2015-05-16 10:47:01.596][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.596][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.596][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1212][1212] success
+[2015-05-16 10:47:01.596][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1584][1584] success
+[2015-05-16 10:47:01.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [2856][2856] success
+[2015-05-16 10:47:01.697][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.697][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.697][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3032][3032] success
+[2015-05-16 10:47:01.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4856][4856] success
+[2015-05-16 10:47:01.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1116][1116] success
+[2015-05-16 10:47:01.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3900][3900] success
+[2015-05-16 10:47:01.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [2608][2608] success
+[2015-05-16 10:47:01.897][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.897][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.897][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.898][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [2388][2388] success
+[2015-05-16 10:47:01.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [2476][2476] success
+[2015-05-16 10:47:01.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:01.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:01.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:01.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [160][160] success
+[2015-05-16 10:47:01.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3908][3908] success
+[2015-05-16 10:47:02.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3820][3820] success
+[2015-05-16 10:47:02.097][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4104][4104] success
+[2015-05-16 10:47:02.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3880][3880] success
+[2015-05-16 10:47:02.197][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.197][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.197][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.198][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3708][3708] success
+[2015-05-16 10:47:02.198][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.247][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3884][3884] success
+[2015-05-16 10:47:02.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3756][3756] success
+[2015-05-16 10:47:02.297][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.297][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.297][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.298][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3656][3656] success
+[2015-05-16 10:47:02.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3948][3948] success
+[2015-05-16 10:47:02.397][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3700][3700] success
+[2015-05-16 10:47:02.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3836][3836] success
+[2015-05-16 10:47:02.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3784][3784] success
+[2015-05-16 10:47:02.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.498][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.498][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3700][3700] success
+[2015-05-16 10:47:02.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4032][4032] success
+[2015-05-16 10:47:02.597][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3916][3916] success
+[2015-05-16 10:47:02.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4000][4000] success
+[2015-05-16 10:47:02.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.648][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.648][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.648][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3984][3984] success
+[2015-05-16 10:47:02.697][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.698][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.698][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.698][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3900][3900] success
+[2015-05-16 10:47:02.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3540][3540] success
+[2015-05-16 10:47:02.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.798][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.798][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3844][3844] success
+[2015-05-16 10:47:02.798][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3428][3428] success
+[2015-05-16 10:47:02.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3932][3932] success
+[2015-05-16 10:47:02.897][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.897][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.898][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.898][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3808][3808] success
+[2015-05-16 10:47:02.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3556][3556] success
+[2015-05-16 10:47:02.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:02.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:02.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:02.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3904][3904] success
+[2015-05-16 10:47:02.998][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3748][3748] success
+[2015-05-16 10:47:03.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3928][3928] success
+[2015-05-16 10:47:03.097][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3888][3888] success
+[2015-05-16 10:47:03.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.146][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3864][3864] success
+[2015-05-16 10:47:03.197][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.198][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.198][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.198][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3948][3948] success
+[2015-05-16 10:47:03.198][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.247][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.247][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4132][4132] success
+[2015-05-16 10:47:03.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.248][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3860][3860] success
+[2015-05-16 10:47:03.297][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.297][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.298][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.298][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3828][3828] success
+[2015-05-16 10:47:03.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.346][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4020][4020] success
+[2015-05-16 10:47:03.397][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3772][3772] success
+[2015-05-16 10:47:03.398][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.447][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3808][3808] success
+[2015-05-16 10:47:03.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.448][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3824][3824] success
+[2015-05-16 10:47:03.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.497][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.498][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.498][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3680][3680] success
+[2015-05-16 10:47:03.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.546][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3640][3640] success
+[2015-05-16 10:47:03.597][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [3868][3868] success
+[2015-05-16 10:47:03.598][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [4436][4436] success
+[2015-05-16 10:47:03.647][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.648][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.648][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.648][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1224][1224] success
+[2015-05-16 10:47:03.697][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.697][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.698][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.698][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1768][1768] success
+[2015-05-16 10:47:03.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.746][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [2052][2052] success
+[2015-05-16 10:47:03.796][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1928][1928] success
+[2015-05-16 10:47:03.797][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1912][1912] success
+[2015-05-16 10:47:03.847][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.848][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1944][1944] success
+[2015-05-16 10:47:03.897][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.898][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.898][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.898][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1784][1784] success
+[2015-05-16 10:47:03.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.946][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1944][1944] success
+[2015-05-16 10:47:03.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:03.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:03.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:03.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1888][1888] success
+[2015-05-16 10:47:03.997][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:04.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:04.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:04.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1836][1836] success
+[2015-05-16 10:47:04.047][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:04.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:04.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:04.048][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1792][1792] success
+[2015-05-16 10:47:04.097][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [336][336] success
+[2015-05-16 10:47:04.097][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [20][20] success
+[2015-05-16 10:47:04.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [5120][5120] success
+[2015-05-16 10:47:04.098][INF] ID-IP-CHAN[6-192.0.0.64-1] [CUserCallBack::WriteDataToFile] HPR_WriteFile [1956][1956] success
+[2015-05-16 10:47:04.126][INF] CStreamConvert::UnloadConvertLib, m_iInitCount = 1
+[2015-05-16 10:47:06.273][INF] ID-IP-CHAN[6-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:47:06.283][DBG] StreamTranClient---[6]rtsp Stop in!
+[2015-05-16 10:47:06.297][ERR] StreamTranClient---[a486df0]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:47:06.298][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20012, size=511
+[2015-05-16 10:47:06.313][DBG] StreamTranClient---[6]rtsp Stop out!
+[2015-05-16 10:47:06.313][INF] ID-IP-CHAN[6-192.0.0.64-1] rtsp_session[6]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:47:06.313][DBG] ID-IP-CHAN[6-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:47:06.313][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:47:16.145][INF] ID-IP-CHAN[7-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:47:16.145][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:47:16.145][DBG] ID-IP-CHAN[7-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:47:16.146][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35342
+[2015-05-16 10:47:16.153][INF] StreamTranClient---TransClientHandle=7 Ptr=0xa6c4de0£¬TotolNum=1
+[2015-05-16 10:47:16.153][DBG] ID-IP-CHAN[7-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:47:16.153][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35343
+[2015-05-16 10:47:16.170][INF] ID-IP-CHAN[7-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:47:16.170][INF] ID-IP-CHAN[7-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:47:16.171][DBG] StreamTranClient---[7]rtsp decribe in
+[2015-05-16 10:47:16.175][DBG] ID-IP-CHAN[7-192.0.0.64-1] rtsp_session[7]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:47:16.175][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20014, size=511
+[2015-05-16 10:47:16.181][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:47:16.181][DBG] StreamTranClient---[7]rtsp play in
+[2015-05-16 10:47:16.187][DBG] ID-IP-CHAN[7-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:47:16.190][INF] ID-IP-CHAN[7-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:47:16.190][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa50ea78]
+[2015-05-16 10:47:16.190][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:47:16.190][DBG] ID-IP-CHAN[7-192.0.0.64-1] RTP Format
+[2015-05-16 10:47:16.190][DBG] ID-IP-CHAN[7-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:47:16.191][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35345
+[2015-05-16 10:47:16.199][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35346
+[2015-05-16 10:47:16.493][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35347
+[2015-05-16 10:47:16.816][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35348
+[2015-05-16 10:47:17.117][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35349
+[2015-05-16 10:47:28.903][INF] ID-IP-CHAN[7-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:47:28.914][DBG] StreamTranClient---[7]rtsp Stop in!
+[2015-05-16 10:47:28.947][ERR] StreamTranClient---[a6c53e0]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:47:28.948][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20014, size=511
+[2015-05-16 10:47:28.963][DBG] StreamTranClient---[7]rtsp Stop out!
+[2015-05-16 10:47:28.963][INF] ID-IP-CHAN[7-192.0.0.64-1] rtsp_session[7]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:47:28.963][DBG] ID-IP-CHAN[7-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:47:28.964][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:47:29.712][INF] ID-IP-CHAN[8-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:47:29.712][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:47:29.712][DBG] ID-IP-CHAN[8-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:47:29.713][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35350
+[2015-05-16 10:47:29.720][INF] StreamTranClient---TransClientHandle=8 Ptr=0xa4e2000£¬TotolNum=1
+[2015-05-16 10:47:29.720][DBG] ID-IP-CHAN[8-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:47:29.720][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35351
+[2015-05-16 10:47:29.728][INF] ID-IP-CHAN[8-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:47:29.728][INF] ID-IP-CHAN[8-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:47:29.729][DBG] StreamTranClient---[8]rtsp decribe in
+[2015-05-16 10:47:29.732][DBG] ID-IP-CHAN[8-192.0.0.64-1] rtsp_session[8]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:47:29.732][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20016, size=511
+[2015-05-16 10:47:29.738][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:47:29.738][DBG] StreamTranClient---[8]rtsp play in
+[2015-05-16 10:47:29.744][DBG] ID-IP-CHAN[8-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:47:29.747][INF] ID-IP-CHAN[8-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:47:29.747][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa6c4fe0]
+[2015-05-16 10:47:29.747][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:47:29.747][DBG] ID-IP-CHAN[8-192.0.0.64-1] RTP Format
+[2015-05-16 10:47:29.747][DBG] ID-IP-CHAN[8-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:47:29.748][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35353
+[2015-05-16 10:47:34.862][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35354
+[2015-05-16 10:47:35.160][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35355
+[2015-05-16 10:47:37.311][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35356
+[2015-05-16 10:47:38.255][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35357
+[2015-05-16 10:47:39.055][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35358
+[2015-05-16 10:47:40.454][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35359
+[2015-05-16 10:47:40.750][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35360
+[2015-05-16 10:47:41.028][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35361
+[2015-05-16 10:47:41.344][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35362
+[2015-05-16 10:47:43.334][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35363
+[2015-05-16 10:47:45.310][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35364
+[2015-05-16 10:47:45.598][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35365
+[2015-05-16 10:47:45.974][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35366
+[2015-05-16 10:47:47.367][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35367
+[2015-05-16 10:47:47.657][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35368
+[2015-05-16 10:47:49.023][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35369
+[2015-05-16 10:47:49.563][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35370
+[2015-05-16 10:47:55.675][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0 port=35371
+[2015-05-16 10:48:03.958][INF] ID-IP-CHAN[8-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:48:03.973][DBG] StreamTranClient---[8]rtsp Stop in!
+[2015-05-16 10:48:04.008][ERR] StreamTranClient---[a58f9b8]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:48:04.009][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20016, size=511
+[2015-05-16 10:48:04.024][DBG] StreamTranClient---[8]rtsp Stop out!
+[2015-05-16 10:48:04.024][INF] ID-IP-CHAN[8-192.0.0.64-1] rtsp_session[8]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:48:04.024][DBG] ID-IP-CHAN[8-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:48:04.025][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:48:12.929][INF] ID-IP-CHAN[9-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:48:12.929][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:48:12.929][DBG] ID-IP-CHAN[9-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:48:12.930][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35372
+[2015-05-16 10:48:12.937][INF] StreamTranClient---TransClientHandle=9 Ptr=0xa6c4978£¬TotolNum=1
+[2015-05-16 10:48:12.937][DBG] ID-IP-CHAN[9-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:48:12.937][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35373
+[2015-05-16 10:48:12.947][INF] ID-IP-CHAN[9-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:48:12.947][INF] ID-IP-CHAN[9-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:48:12.947][DBG] StreamTranClient---[9]rtsp decribe in
+[2015-05-16 10:48:12.952][DBG] ID-IP-CHAN[9-192.0.0.64-1] rtsp_session[9]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:48:12.952][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20018, size=511
+[2015-05-16 10:48:12.957][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:48:12.957][DBG] StreamTranClient---[9]rtsp play in
+[2015-05-16 10:48:12.961][DBG] ID-IP-CHAN[9-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:48:12.965][INF] ID-IP-CHAN[9-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:48:12.966][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa67ec18]
+[2015-05-16 10:48:12.966][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:48:12.966][DBG] ID-IP-CHAN[9-192.0.0.64-1] RTP Format
+[2015-05-16 10:48:12.966][DBG] ID-IP-CHAN[9-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:48:12.967][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35375
+[2015-05-16 10:48:12.975][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35376
+[2015-05-16 10:48:13.284][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35377
+[2015-05-16 10:48:13.559][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35378
+[2015-05-16 10:48:13.838][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35379
+[2015-05-16 10:48:23.547][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x90100 port=35380
+[2015-05-16 10:49:37.920][INF] ID-IP-CHAN[9-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:49:37.930][DBG] StreamTranClient---[9]rtsp Stop in!
+[2015-05-16 10:49:37.973][ERR] StreamTranClient---[a358e40]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:49:37.974][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20018, size=511
+[2015-05-16 10:49:37.974][ERR] StreamTranClient---[9]rtsp recv err!
+[2015-05-16 10:49:37.997][DBG] StreamTranClient---[9]rtsp Stop out!
+[2015-05-16 10:49:37.997][INF] ID-IP-CHAN[9-192.0.0.64-1] rtsp_session[9]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:49:37.997][DBG] ID-IP-CHAN[9-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:49:37.997][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:49:38.000][INF] ID-IP-CHAN[10-192.0.0.64-2] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:49:38.000][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:49:38.000][DBG] ID-IP-CHAN[10-192.0.0.64-2] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:49:38.001][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35381
+[2015-05-16 10:49:38.009][INF] StreamTranClient---TransClientHandle=10 Ptr=0xa2f99f0£¬TotolNum=1
+[2015-05-16 10:49:38.010][DBG] ID-IP-CHAN[10-192.0.0.64-2] rtsp_session[10]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:49:38.010][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35382
+[2015-05-16 10:49:38.019][INF] ID-IP-CHAN[10-192.0.0.64-2] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch02/main/av_stream
+[2015-05-16 10:49:38.019][INF] ID-IP-CHAN[10-192.0.0.64-2] rtsp_session[10]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:49:38.020][DBG] StreamTranClient---[10]rtsp decribe in
+[2015-05-16 10:49:38.025][DBG] ID-IP-CHAN[10-192.0.0.64-2] rtsp_session[10]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:49:38.025][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20020, size=511
+[2015-05-16 10:49:38.033][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:49:38.033][DBG] StreamTranClient---[10]rtsp play in
+[2015-05-16 10:49:38.038][DBG] ID-IP-CHAN[10-192.0.0.64-2] rtsp_session[10]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:49:38.041][INF] ID-IP-CHAN[10-192.0.0.64-2] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:49:38.042][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa67ec18]
+[2015-05-16 10:49:38.042][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:49:38.042][DBG] ID-IP-CHAN[10-192.0.0.64-2] RTP Format
+[2015-05-16 10:49:38.042][DBG] ID-IP-CHAN[10-192.0.0.64-2] [CPreviewSession::Start] SUCC
+[2015-05-16 10:49:38.043][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35384
+[2015-05-16 10:49:39.111][INF] ID-IP-CHAN[10-192.0.0.64-2] [CPreviewSession::Stop]
+[2015-05-16 10:49:39.111][DBG] StreamTranClient---[10]rtsp Stop in!
+[2015-05-16 10:49:39.142][ERR] StreamTranClient---[a358e40]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:49:39.143][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20020, size=511
+[2015-05-16 10:49:39.148][DBG] StreamTranClient---[10]rtsp Stop out!
+[2015-05-16 10:49:39.148][INF] ID-IP-CHAN[10-192.0.0.64-2] rtsp_session[10]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:49:39.149][DBG] ID-IP-CHAN[10-192.0.0.64-2] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:49:39.149][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:49:39.167][INF] ID-IP-CHAN[11-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:49:39.167][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:49:39.168][DBG] ID-IP-CHAN[11-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:49:39.168][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35385
+[2015-05-16 10:49:39.175][INF] StreamTranClient---TransClientHandle=11 Ptr=0xa2f99f0£¬TotolNum=1
+[2015-05-16 10:49:39.175][DBG] ID-IP-CHAN[11-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[554], RtspInstancePtr[a2578dc]
+[2015-05-16 10:49:39.175][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35386
+[2015-05-16 10:49:39.182][INF] ID-IP-CHAN[11-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:49:39.182][INF] ID-IP-CHAN[11-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:49:39.186][DBG] StreamTranClient---[11]rtsp decribe in
+[2015-05-16 10:49:39.190][DBG] ID-IP-CHAN[11-192.0.0.64-1] rtsp_session[11]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:49:39.190][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20022, size=511
+[2015-05-16 10:49:39.199][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:49:39.199][DBG] StreamTranClient---[11]rtsp play in
+[2015-05-16 10:49:39.203][DBG] ID-IP-CHAN[11-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:49:39.205][INF] ID-IP-CHAN[11-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:49:39.206][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa67ec18]
+[2015-05-16 10:49:39.206][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:49:39.206][DBG] ID-IP-CHAN[11-192.0.0.64-1] RTP Format
+[2015-05-16 10:49:39.206][DBG] ID-IP-CHAN[11-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:49:39.208][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35388
+[2015-05-16 10:49:55.685][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0 port=35389
+[2015-05-16 10:50:26.025][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30900 port=35390
+[2015-05-16 10:50:34.218][DBG] StreamTranClient---HPR_ThreadPoolFlex_Work 0xa71a050[11] is busy.
+[2015-05-16 10:50:34.220][DBG] ID-IP-CHAN[11-192.0.0.64-1] [CGetStreamBase::DoExchange] recv timeout[2], m_bReConnecting[0], maxtimes[6]!
+[2015-05-16 10:50:34.228][ERR] StreamTranClient---[11]rtsp recv err!
+[2015-05-16 10:50:37.166][INF] ID-IP-CHAN[11-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:50:37.184][DBG] StreamTranClient---[11]rtsp Stop in!
+[2015-05-16 10:50:37.284][ERR] StreamTranClient---[11]rtsp recv err!
+[2015-05-16 10:50:37.285][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20022, size=511
+[2015-05-16 10:50:39.318][ERR] StreamTranClient---[11]rtsp recv err!
+[2015-05-16 10:50:47.294][DBG] StreamTranClient---[11]rtsp Stop out!
+[2015-05-16 10:50:47.295][INF] ID-IP-CHAN[11-192.0.0.64-1] rtsp_session[11]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:50:47.295][DBG] ID-IP-CHAN[11-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:50:47.295][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:50:47.334][INF] ID-IP-CHAN[12-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:50:47.334][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:50:47.334][DBG] ID-IP-CHAN[12-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:50:47.334][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:47.340][INF] StreamTranClient---TransClientHandle=12 Ptr=0xa368af8£¬TotolNum=1
+[2015-05-16 10:50:47.340][DBG] ID-IP-CHAN[12-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[0], RtspInstancePtr[a2578dc]
+[2015-05-16 10:50:47.340][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:47.345][INF] ID-IP-CHAN[12-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:47.345][INF] ID-IP-CHAN[12-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:50:47.346][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-16 10:50:47.346][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-16 10:50:47.346][DBG] StreamTranClient---[12]rtsp init sock failed
+[2015-05-16 10:50:47.346][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-16 10:50:47.346][ERR] ID-IP-CHAN[12-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out err[7]
+[2015-05-16 10:50:47.346][DBG] StreamTranClient---[12]rtsp Stop in!
+[2015-05-16 10:50:47.346][DBG] StreamTranClient---[12]rtsp Stop out!
+[2015-05-16 10:50:47.346][INF] ID-IP-CHAN[12-192.0.0.64-1] rtsp_session[12]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return -1
+[2015-05-16 10:50:47.346][ERR] ID-IP-CHAN[12-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:47.346][ERR] [0]PlayM4_Stop failed[2]
+[2015-05-16 10:50:47.346][ERR] [0]PlayM4_CloseStream failed[2]
+[2015-05-16 10:50:51.880][INF] ID-IP-CHAN[13-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:50:51.880][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:50:51.880][DBG] ID-IP-CHAN[13-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:50:51.881][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:51.886][INF] StreamTranClient---TransClientHandle=13 Ptr=0xa6bfb30£¬TotolNum=1
+[2015-05-16 10:50:51.886][DBG] ID-IP-CHAN[13-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[0], RtspInstancePtr[a2578dc]
+[2015-05-16 10:50:51.886][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:51.892][INF] ID-IP-CHAN[13-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:51.892][INF] ID-IP-CHAN[13-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:50:51.892][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-16 10:50:51.892][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-16 10:50:51.892][DBG] StreamTranClient---[13]rtsp init sock failed
+[2015-05-16 10:50:51.892][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-16 10:50:51.892][ERR] ID-IP-CHAN[13-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out err[7]
+[2015-05-16 10:50:51.892][DBG] StreamTranClient---[13]rtsp Stop in!
+[2015-05-16 10:50:51.892][DBG] StreamTranClient---[13]rtsp Stop out!
+[2015-05-16 10:50:51.892][INF] ID-IP-CHAN[13-192.0.0.64-1] rtsp_session[13]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return -1
+[2015-05-16 10:50:51.892][ERR] ID-IP-CHAN[13-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:51.892][ERR] [0]PlayM4_Stop failed[2]
+[2015-05-16 10:50:51.892][ERR] [0]PlayM4_CloseStream failed[2]
+[2015-05-16 10:50:54.920][INF] ID-IP-CHAN[14-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:50:54.920][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:50:54.920][DBG] ID-IP-CHAN[14-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:50:54.921][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:54.926][INF] StreamTranClient---TransClientHandle=14 Ptr=0xa6bfb30£¬TotolNum=1
+[2015-05-16 10:50:54.926][DBG] ID-IP-CHAN[14-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[0], RtspInstancePtr[a2578dc]
+[2015-05-16 10:50:54.926][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:54.932][INF] ID-IP-CHAN[14-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:54.932][INF] ID-IP-CHAN[14-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:50:54.932][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-16 10:50:54.932][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-16 10:50:54.932][DBG] StreamTranClient---[14]rtsp init sock failed
+[2015-05-16 10:50:54.932][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-16 10:50:54.932][ERR] ID-IP-CHAN[14-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out err[7]
+[2015-05-16 10:50:54.933][DBG] StreamTranClient---[14]rtsp Stop in!
+[2015-05-16 10:50:54.933][DBG] StreamTranClient---[14]rtsp Stop out!
+[2015-05-16 10:50:54.933][INF] ID-IP-CHAN[14-192.0.0.64-1] rtsp_session[14]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return -1
+[2015-05-16 10:50:54.933][ERR] ID-IP-CHAN[14-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:54.933][ERR] [0]PlayM4_Stop failed[2]
+[2015-05-16 10:50:54.933][ERR] [0]PlayM4_CloseStream failed[2]
+[2015-05-16 10:50:58.743][INF] ID-IP-CHAN[15-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:50:58.743][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:50:58.743][DBG] ID-IP-CHAN[15-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:50:58.744][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:58.749][INF] StreamTranClient---TransClientHandle=15 Ptr=0xa6bfb30£¬TotolNum=1
+[2015-05-16 10:50:58.749][DBG] ID-IP-CHAN[15-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[0], RtspInstancePtr[a2578dc]
+[2015-05-16 10:50:58.750][ERR] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x21 sys_err=111
+[2015-05-16 10:50:58.755][INF] ID-IP-CHAN[15-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:58.755][INF] ID-IP-CHAN[15-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:50:58.756][DBG] StreamTranClient---rtsp ConnectWithTimeOu failed[192.0.0.64]!
+[2015-05-16 10:50:58.756][DBG] StreamTranClient---rtsp---CreateConnection failed!
+
+[2015-05-16 10:50:58.756][DBG] StreamTranClient---[15]rtsp init sock failed
+[2015-05-16 10:50:58.756][ERR] StreamTranClient---StreamTransClient_Start failed. SetRemedyError:3
+[2015-05-16 10:50:58.756][ERR] ID-IP-CHAN[15-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out err[7]
+[2015-05-16 10:50:58.756][DBG] StreamTranClient---[15]rtsp Stop in!
+[2015-05-16 10:50:58.756][DBG] StreamTranClient---[15]rtsp Stop out!
+[2015-05-16 10:50:58.756][INF] ID-IP-CHAN[15-192.0.0.64-1] rtsp_session[15]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return -1
+[2015-05-16 10:50:58.756][ERR] ID-IP-CHAN[15-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] SendHeaderWithRecv FAILED LongCmd=0 url:rtsp://192.0.0.64:0/mpeg4/ch01/main/av_stream
+[2015-05-16 10:50:58.756][ERR] [0]PlayM4_Stop failed[2]
+[2015-05-16 10:50:58.756][ERR] [0]PlayM4_CloseStream failed[2]
+[2015-05-16 10:51:02.632][INF] ID-IP-CHAN[16-192.0.0.64-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xf0f0]
+[2015-05-16 10:51:02.632][INF] GlobalCtrl load [libPlayCtrl.so] with sdk path success and get handle[0xb7764000]
+[2015-05-16 10:51:02.632][DBG] ID-IP-CHAN[16-192.0.0.64-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.0.3.4]
+[2015-05-16 10:51:02.632][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35403
+[2015-05-16 10:51:02.656][INF] Private connect 192.0.0.64:8000 sock=34 this=0xaf9dd254 cmd=0 port=35404
+[2015-05-16 10:51:02.670][INF] Private connect 192.0.0.64:8000 sock=34 this=0xaf9dd254 cmd=0x10000 port=35405
+[2015-05-16 10:51:02.671][INF] LogonDev1 in
+[2015-05-16 10:51:02.702][INF] LogonDev1 in twice
+[2015-05-16 10:51:02.721][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35406
+[2015-05-16 10:51:02.737][INF] StreamTranClient---TransClientHandle=16 Ptr=0xa6bfb30£¬TotolNum=1
+[2015-05-16 10:51:02.737][DBG] ID-IP-CHAN[16-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::OpenConnection] Create Rtsp Session SUC, port[0], RtspInstancePtr[a2578dc]
+[2015-05-16 10:51:02.738][INF] Private connect 192.0.0.64:8000 sock=33 this=0xaf9d900c cmd=0x20c04 port=35407
+[2015-05-16 10:51:02.744][INF] ID-IP-CHAN[16-192.0.0.64-1] [CGetRTSPStream::SendCommandToDvr] LongCmd=0 url:rtsp://192.0.0.64:554/mpeg4/ch01/main/av_stream
+[2015-05-16 10:51:02.745][INF] ID-IP-CHAN[16-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start in
+[2015-05-16 10:51:02.745][DBG] StreamTranClient---[16]rtsp decribe in
+[2015-05-16 10:51:02.754][DBG] ID-IP-CHAN[16-192.0.0.64-1] rtsp_session[16]  [proc_describe] write header, this[a2578dc]
+[2015-05-16 10:51:02.754][INF] StreamTranClient---rtsp portthis[a267c10]get tcp port=20024, size=511
+[2015-05-16 10:51:02.762][DBG] StreamTranClient---RTSPAsyncIO::Start in!
+[2015-05-16 10:51:02.762][DBG] StreamTranClient---[16]rtsp play in
+[2015-05-16 10:51:02.769][DBG] ID-IP-CHAN[16-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::SendHeaderWithRecv] this[a2578dc] start out SUC
+[2015-05-16 10:51:02.773][INF] ID-IP-CHAN[16-192.0.0.64-1] [CPreviewPlayer::OpenPlayer] open player[a255a9c] success
+[2015-05-16 10:51:02.774][INF] GlobalCtrl load [.//HCNetSDKCom//libSystemTransform.so] with sdk path success and get handle[0xa67ec18]
+[2015-05-16 10:51:02.774][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2015-05-16 10:51:02.774][DBG] ID-IP-CHAN[16-192.0.0.64-1] RTP Format
+[2015-05-16 10:51:02.774][DBG] ID-IP-CHAN[16-192.0.0.64-1] [CPreviewSession::Start] SUCC
+[2015-05-16 10:51:02.775][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30007 port=35409
+[2015-05-16 10:51:46.854][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35410
+[2015-05-16 10:51:47.149][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35411
+[2015-05-16 10:51:48.575][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35412
+[2015-05-16 10:51:48.868][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35413
+[2015-05-16 10:51:51.063][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35414
+[2015-05-16 10:51:52.951][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35415
+[2015-05-16 10:51:53.245][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35416
+[2015-05-16 10:51:54.678][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35417
+[2015-05-16 10:51:54.970][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35418
+[2015-05-16 10:51:55.696][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0 port=35419
+[2015-05-16 10:51:57.094][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35420
+[2015-05-16 10:51:57.395][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35421
+[2015-05-16 10:51:58.894][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35422
+[2015-05-16 10:51:59.187][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35423
+[2015-05-16 10:52:01.616][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35424
+[2015-05-16 10:52:04.168][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35425
+[2015-05-16 10:52:05.510][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35426
+[2015-05-16 10:52:05.796][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35427
+[2015-05-16 10:52:07.990][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35428
+[2015-05-16 10:52:08.743][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35429
+[2015-05-16 10:52:09.029][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35430
+[2015-05-16 10:52:10.183][INF] Private connect 192.0.0.64:8000 sock=36 this=0xaf9d900c cmd=0x30008 port=35431
+[2015-05-16 10:52:41.008][INF] Listen stop notice thread to exit
+[2015-05-16 10:52:41.008][INF] ID-IP-CHAN[16-192.0.0.64-1] [CPreviewSession::Stop]
+[2015-05-16 10:52:41.019][DBG] StreamTranClient---[16]rtsp Stop in!
+[2015-05-16 10:52:41.035][ERR] StreamTranClient---[9fb39e0]It recvs data [socket:34] error, system error:104!
+[2015-05-16 10:52:41.036][INF] StreamTranClient---rtsp portthis[a267c10]resuse tcp port=20024, size=511
+[2015-05-16 10:52:41.058][DBG] StreamTranClient---[16]rtsp Stop out!
+[2015-05-16 10:52:41.058][INF] ID-IP-CHAN[16-192.0.0.64-1] rtsp_session[16]  [CRtspProtocolInstance::StopLinkInConnection] this[a2578dc] stop session return 0
+[2015-05-16 10:52:41.058][DBG] ID-IP-CHAN[16-192.0.0.64-1] [CGetStreamBase::DeleteStreamConvert] DeleteStreamConvert
+[2015-05-16 10:52:41.062][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2015-05-16 10:52:41.085][INF] CTransUnitMgr::UnloadTransUnitLib
+[2015-05-16 10:52:46.040][DBG] StreamTranClient---Destroy asyncio queue succ!
+[2015-05-16 10:52:46.140][INF] CTransUnitMgr::UnloadTransUnitLib, m_iInitCount = 0
+[2015-05-16 10:52:56.142][ERR] Private connect 192.0.0.64:8000 sock=25 this=0xaf9d900c cmd=0x19 sys_err=110
+[2015-05-16 10:53:00.872][DBG] stop time thread

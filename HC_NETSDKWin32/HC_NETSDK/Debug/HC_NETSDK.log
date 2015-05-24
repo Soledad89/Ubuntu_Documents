@@ -1,0 +1,314 @@
+﻿生成启动时间为 2015/5/17 14:57:01。
+     1>项目“c:\Users\soledad\documents\visual studio 2010\Projects\HC_NETSDK\HC_NETSDK\HC_NETSDK.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\HC_NETSDK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1391): error C2146: 语法错误: 缺少“;”(在标识符“dwYear”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1391): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1391): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1392): error C2146: 语法错误: 缺少“;”(在标识符“dwMonth”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1392): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1392): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1393): error C2146: 语法错误: 缺少“;”(在标识符“dwDay”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1393): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1393): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1394): error C2146: 语法错误: 缺少“;”(在标识符“dwHour”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1394): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1394): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1395): error C2146: 语法错误: 缺少“;”(在标识符“dwMinute”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1395): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1395): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1396): error C2146: 语法错误: 缺少“;”(在标识符“dwSecond”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1396): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1396): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1401): error C2146: 语法错误: 缺少“;”(在标识符“wYear”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1401): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1401): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1402): error C2146: 语法错误: 缺少“;”(在标识符“byMonth”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1402): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1402): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1403): error C2146: 语法错误: 缺少“;”(在标识符“byDay”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1403): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1403): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1404): error C2146: 语法错误: 缺少“;”(在标识符“byHour”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1404): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1404): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1405): error C2146: 语法错误: 缺少“;”(在标识符“byMinute”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1405): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1405): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1406): error C2146: 语法错误: 缺少“;”(在标识符“bySecond”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1406): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1406): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1407): error C2146: 语法错误: 缺少“;”(在标识符“byRes”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1407): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1407): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1414): error C2146: 语法错误: 缺少“;”(在标识符“byStartHour”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1414): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1414): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1415): error C2146: 语法错误: 缺少“;”(在标识符“byStartMin”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1415): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1415): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1417): error C2146: 语法错误: 缺少“;”(在标识符“byStopHour”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1417): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1417): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1418): error C2146: 语法错误: 缺少“;”(在标识符“byStopMin”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1418): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1418): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1434): error C2146: 语法错误: 缺少“;”(在标识符“dwHandleType”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1434): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1434): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1441): error C2146: 语法错误: 缺少“;”(在标识符“byRelAlarmOut”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1441): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1441): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1448): error C2146: 语法错误: 缺少“;”(在标识符“dwHandleType”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1448): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1448): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1455): error C2146: 语法错误: 缺少“;”(在标识符“byRelAlarmOut”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1455): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1455): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1461): error C2146: 语法错误: 缺少“;”(在标识符“dwSize”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1461): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1461): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1462): error C2146: 语法错误: 缺少“;”(在标识符“sDVRName”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1462): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1462): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1463): error C2146: 语法错误: 缺少“;”(在标识符“dwDVRID”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1463): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1463): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1464): error C2146: 语法错误: 缺少“;”(在标识符“dwRecycleRecord”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1464): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1464): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1466): error C2146: 语法错误: 缺少“;”(在标识符“sSerialNumber”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1466): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1466): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1467): error C2146: 语法错误: 缺少“;”(在标识符“dwSoftwareVersion”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1467): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1467): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1468): error C2146: 语法错误: 缺少“;”(在标识符“dwSoftwareBuildDate”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1468): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1468): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1469): error C2146: 语法错误: 缺少“;”(在标识符“dwDSPSoftwareVersion”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1469): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1469): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1470): error C2146: 语法错误: 缺少“;”(在标识符“dwDSPSoftwareBuildDate”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1470): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1470): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1471): error C2146: 语法错误: 缺少“;”(在标识符“dwPanelVersion”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1471): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1471): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1472): error C2146: 语法错误: 缺少“;”(在标识符“dwHardwareVersion”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1472): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1472): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1473): error C2146: 语法错误: 缺少“;”(在标识符“byAlarmInPortNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1473): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1473): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1474): error C2146: 语法错误: 缺少“;”(在标识符“byAlarmOutPortNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1474): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1474): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1475): error C2146: 语法错误: 缺少“;”(在标识符“byRS232Num”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1475): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1475): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1476): error C2146: 语法错误: 缺少“;”(在标识符“byRS485Num”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1476): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1476): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1477): error C2146: 语法错误: 缺少“;”(在标识符“byNetworkPortNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1477): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1477): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1478): error C2146: 语法错误: 缺少“;”(在标识符“byDiskCtrlNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1478): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1478): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1479): error C2146: 语法错误: 缺少“;”(在标识符“byDiskNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1479): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1479): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1480): error C2146: 语法错误: 缺少“;”(在标识符“byDVRType”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1480): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1480): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1481): error C2146: 语法错误: 缺少“;”(在标识符“byChanNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1481): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1481): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1482): error C2146: 语法错误: 缺少“;”(在标识符“byStartChan”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1482): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1482): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1483): error C2146: 语法错误: 缺少“;”(在标识符“byDecordChans”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1483): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1483): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1484): error C2146: 语法错误: 缺少“;”(在标识符“byVGANum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1484): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1484): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1485): error C2146: 语法错误: 缺少“;”(在标识符“byUSBNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1485): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1485): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1486): error C2146: 语法错误: 缺少“;”(在标识符“byAuxoutNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1486): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1486): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1487): error C2146: 语法错误: 缺少“;”(在标识符“byAudioNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1487): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1487): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1488): error C2146: 语法错误: 缺少“;”(在标识符“byIPChanNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1488): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1488): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1497): error C2146: 语法错误: 缺少“;”(在标识符“byIPv6”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1497): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1497): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1508): error C2146: 语法错误: 缺少“;”(在标识符“dwNetInterface”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1508): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1508): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1509): error C2146: 语法错误: 缺少“;”(在标识符“wDVRPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1509): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1509): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1510): error C2146: 语法错误: 缺少“;”(在标识符“wMTU”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1510): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1510): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1511): error C2146: 语法错误: 缺少“;”(在标识符“byMACAddr”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1511): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1511): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1512): error C2146: 语法错误: 缺少“;”(在标识符“byRes”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1512): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1512): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1522): error C2146: 语法错误: 缺少“;”(在标识符“dwNetInterface”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1522): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1522): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1523): error C2146: 语法错误: 缺少“;”(在标识符“wDVRPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1523): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1523): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1524): error C2146: 语法错误: 缺少“;”(在标识符“byMACAddr”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1524): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1524): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1530): error C2146: 语法错误: 缺少“;”(在标识符“dwPPPOE”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1530): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1530): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1531): error C2146: 语法错误: 缺少“;”(在标识符“sPPPoEUser”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1531): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1531): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1539): error C2146: 语法错误: 缺少“;”(在标识符“dwSize”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1539): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1539): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1543): error C2146: 语法错误: 缺少“;”(在标识符“wRes2”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1543): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1543): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1544): error C2146: 语法错误: 缺少“;”(在标识符“wAlarmHostIpPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1544): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1544): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1545): error C2146: 语法错误: 缺少“;”(在标识符“byUseDhcp”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1545): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1545): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1546): error C2146: 语法错误: 缺少“;”(在标识符“byRes3”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1546): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1546): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1549): error C2146: 语法错误: 缺少“;”(在标识符“byIpResolver”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1549): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1549): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1550): error C2146: 语法错误: 缺少“;”(在标识符“wIpResolverPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1550): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1550): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1551): error C2146: 语法错误: 缺少“;”(在标识符“wHttpPortNo”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1551): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1551): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1555): error C2146: 语法错误: 缺少“;”(在标识符“byRes”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1555): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1555): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1563): error C2146: 语法错误: 缺少“;”(在标识符“dwNetInterface”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1563): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1563): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1564): error C2146: 语法错误: 缺少“;”(在标识符“byRes1”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1564): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1564): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1565): error C2146: 语法错误: 缺少“;”(在标识符“wMTU”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1565): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1565): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1566): error C2146: 语法错误: 缺少“;”(在标识符“byMACAddr”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1566): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1566): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1567): error C2146: 语法错误: 缺少“;”(在标识符“byRes2”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1567): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1567): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1568): error C2146: 语法错误: 缺少“;”(在标识符“byUseDhcp”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1568): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1568): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1569): error C2146: 语法错误: 缺少“;”(在标识符“byRes3”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1569): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1569): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1578): error C2146: 语法错误: 缺少“;”(在标识符“dwSize”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1578): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1578): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1579): error C2146: 语法错误: 缺少“;”(在标识符“byDefaultRoute”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1579): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1579): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1580): error C2146: 语法错误: 缺少“;”(在标识符“byNetworkCardNum”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1580): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1580): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1581): error C2146: 语法错误: 缺少“;”(在标识符“byRes”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1581): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1581): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1586): error C2146: 语法错误: 缺少“;”(在标识符“wManageHost1Port”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1586): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1586): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1587): error C2146: 语法错误: 缺少“;”(在标识符“wManageHost2Port”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1587): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1587): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1588): error C2146: 语法错误: 缺少“;”(在标识符“wAlarmHostIpPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1588): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1588): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1589): error C2146: 语法错误: 缺少“;”(在标识符“byIpResolver”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1589): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1589): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1590): error C2146: 语法错误: 缺少“;”(在标识符“wIpResolverPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1590): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1590): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1591): error C2146: 语法错误: 缺少“;”(在标识符“wDvrPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1591): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1591): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1592): error C2146: 语法错误: 缺少“;”(在标识符“wHttpPortNo”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1592): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1592): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1593): error C2146: 语法错误: 缺少“;”(在标识符“byRes2”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1593): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1593): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1596): error C2146: 语法错误: 缺少“;”(在标识符“byRes3”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1596): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1596): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1602): error C2146: 语法错误: 缺少“;”(在标识符“dwSize”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1602): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1602): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1605): error C2146: 语法错误: 缺少“;”(在标识符“wManageHostPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1605): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1605): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1610): error C2146: 语法错误: 缺少“;”(在标识符“sNFSDirectory”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1610): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1610): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1611): error C2146: 语法错误: 缺少“;”(在标识符“dwPPPOE”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1611): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1611): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1612): error C2146: 语法错误: 缺少“;”(在标识符“sPPPoEUser”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1612): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1612): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1615): error C2146: 语法错误: 缺少“;”(在标识符“wHttpPort”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1615): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1615): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1622): error C2146: 语法错误: 缺少“;”(在标识符“byMotionScope”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1622): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1622): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1623): error C2146: 语法错误: 缺少“;”(在标识符“byMotionSensitive”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1623): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1623): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1624): error C2146: 语法错误: 缺少“;”(在标识符“byEnableHandleMotion”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1624): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1624): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1625): error C2146: 语法错误: 缺少“;”(在标识符“byRes”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1625): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1625): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1629): error C2146: 语法错误: 缺少“;”(在标识符“byRelRecordChan”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1629): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1629): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1635): error C2146: 语法错误: 缺少“;”(在标识符“byMotionScope”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1635): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1635): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1636): error C2146: 语法错误: 缺少“;”(在标识符“byMotionSensitive”的前面)
+     1>c:\users\soledad\documents\visual studio 2010\projects\hc_netsdk\hc_netsdk\hcnetsdk.h(1636): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“c:\Users\soledad\documents\visual studio 2010\Projects\HC_NETSDK\HC_NETSDK\HC_NETSDK.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.04

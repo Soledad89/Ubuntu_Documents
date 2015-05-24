@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>180</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>180</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>180</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_initial">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>160</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>中间件初始化</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_pick">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>160</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>160</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maxVisibleItems">
+    <number>20</number>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>全部雷达和电视</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>两路雷达</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>两路电视</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>----------------</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达1 全部窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达1 PPI</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达1 MINI</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达1 AR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>----------------</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达2 全部窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达2 PPI</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达2 MINI</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>雷达2 AR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>----------------</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>电视1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>电视2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ok">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>480</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_open">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_close">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>120</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_up">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>155</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_down">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>220</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_disoverlap">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_overlap">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>叠加</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_item">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>160</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maxVisibleItems">
+    <number>20</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>打开PPI视频窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>关闭PPI视频窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI窗口位置</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI窗口尺寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI显示模式</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI显示中心</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI舰艏方位</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI视频颜色</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI扫描线是否显示</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI扫描线颜色</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冻结/解冻PPI视频</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI量程</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI开关值</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI门限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI余晖时间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI尾迹开关</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI尾迹颜色</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI尾迹门限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI尾迹保留时间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置两路PPI同窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置PPI颜色查找表</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PPI显示区清屏</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置真运动/相对运动</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>打开AR窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>关闭AR窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR窗口位置</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR窗口尺寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR门限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR量程</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR颜色</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR余晖时间</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置AR背景颜色</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>打开MINI窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>关闭MINI窗口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口位置</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口尺寸</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口显示模式</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口颜色</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口距离方位</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口放大倍数</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置MINI窗口颜色查找表</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置雷达扫描模式</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>内部雷达数据送显</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>打开电视</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>关闭电视</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置电视窗口位置</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置电视窗口大小</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冻结/解冻电视</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置电视亮度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置电视对比度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>设置电视饱和度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PPI/MINI图层颜色控制</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AR/TV图层颜色控制</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>channel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>param1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>param2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>param3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>430</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>param4</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_channel">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>310</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_prarm1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_param2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>370</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_param3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>400</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_param4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>430</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
