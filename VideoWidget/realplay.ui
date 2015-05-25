@@ -25,20 +25,14 @@
   <property name="windowTitle">
    <string>RealPlay</string>
   </property>
-  <widget class="QFrame" name="m_pframePlay">
+  <widget class="QWidget" name="m_pframePlay" native="true">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>610</width>
-     <height>610</height>
+     <width>841</width>
+     <height>621</height>
     </rect>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
    </property>
   </widget>
  </widget>

@@ -49,8 +49,8 @@ int RealPlay::play()
     ClientInfo.hPlayWnd = hWnd;
     ClientInfo.lChannel     = 1;
     ClientInfo.lLinkMode    = 0;
-    //int realhandle = NET_DVR_RealPlay(lUserID, &ClientInfo);
-    int realhandle = NET_DVR_RealPlay_V30(lUserID, &ClientInfo, NULL, NULL, 1);
+    int realhandle = NET_DVR_RealPlay(lUserID, &ClientInfo);
+    //int realhandle = NET_DVR_RealPlay_V40(lUserID, &ClientInfo, NULL, NULL, 1);
     //int realhandle = NET_DVR_RealPlay(0, &ClientInfo);
     if (realhandle < 0)
     {

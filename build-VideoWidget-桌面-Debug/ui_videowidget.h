@@ -1,7 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'videowidget.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created: Mon May 25 10:18:29 2015
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -29,10 +30,10 @@ public:
     {
         if (VideoWidget->objectName().isEmpty())
             VideoWidget->setObjectName(QString::fromUtf8("VideoWidget"));
-        VideoWidget->resize(536, 459);
+        VideoWidget->resize(648, 583);
         gridLayoutWidget = new QWidget(VideoWidget);
         gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
-        gridLayoutWidget->setGeometry(QRect(0, 0, 541, 461));
+        gridLayoutWidget->setGeometry(QRect(10, 10, 601, 541));
         gridLayout = new QGridLayout(gridLayoutWidget);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);

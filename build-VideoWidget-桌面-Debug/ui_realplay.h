@@ -1,7 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'realplay.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created: Mon May 25 10:32:01 2015
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -13,7 +14,6 @@
 #include <QtGui/QAction>
 #include <QtGui/QApplication>
 #include <QtGui/QButtonGroup>
-#include <QtGui/QFrame>
 #include <QtGui/QHeaderView>
 #include <QtGui/QWidget>
 
@@ -22,7 +22,7 @@ QT_BEGIN_NAMESPACE
 class Ui_RealPlayClass
 {
 public:
-    QFrame *m_pframePlay;
+    QWidget *m_pframePlay;
 
     void setupUi(QWidget *RealPlayClass)
     {
@@ -31,11 +31,9 @@ public:
         RealPlayClass->resize(869, 655);
         RealPlayClass->setMinimumSize(QSize(869, 655));
         RealPlayClass->setMaximumSize(QSize(869, 655));
-        m_pframePlay = new QFrame(RealPlayClass);
+        m_pframePlay = new QWidget(RealPlayClass);
         m_pframePlay->setObjectName(QString::fromUtf8("m_pframePlay"));
-        m_pframePlay->setGeometry(QRect(10, 10, 610, 610));
-        m_pframePlay->setFrameShape(QFrame::StyledPanel);
-        m_pframePlay->setFrameShadow(QFrame::Raised);
+        m_pframePlay->setGeometry(QRect(10, 10, 841, 621));
 
         retranslateUi(RealPlayClass);
 

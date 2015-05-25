@@ -16,7 +16,6 @@
 #include <QFrame>
 
 #include "realplay.h"
-#include "FramePlayWnd.h"
 #include "HCNetSDK.h"
   
 class RealPlay : public QWidget
@@ -33,7 +32,7 @@ public:
 private:
     Ui::RealPlayClass ui;
 
-    QFrame *m_pframePlay;
+    QWidget *m_pframePlay;
 
 };
 #endif // REALPLAY_H
